@@ -18,7 +18,8 @@ def get_args():
     directory created for each ped file. Two main output files are produced per ped file, one which 
     contains the cross-validation scores for every replicate, and one which contains the average 
     cross-validation score per K value. The second file can be used to plot the CV scores with the 
-    associated R script.
+    associated R script. A log file is also produced, which contains the analysis settings and the 
+    commands used to execute admixture for all K value replicates. 
     
  
     DEPENDENCIES: admixture (in path).
@@ -32,12 +33,12 @@ def get_args():
     parser.add_argument("--kmin",
                             required=True,
                             type=int,
-                            help="REQUIRED: The minimum K-value to start at.")
+                            help="REQUIRED: The minimum K-value to start with.")
     
     parser.add_argument("--kmax",
                             required=True,
                             type=int,
-                            help="REQUIRED: The maximum K-value to include.")
+                            help="REQUIRED: The maximum K-value to end with.")
     
     parser.add_argument("--reps",
                             required=True,
@@ -50,7 +51,7 @@ def get_args():
                             type=int,
                             help="REQUIRED: Select the fold number for the cross-validation "
                             "procedure. For example, setting 10 would invoke the "
-                            "--cv=5 flag in admixture.")
+                            "--cv=10 flag in admixture.")
     
     parser.add_argument("-t", "--threads",
                             required=False,
