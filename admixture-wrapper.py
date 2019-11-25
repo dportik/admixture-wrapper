@@ -11,7 +11,7 @@ def get_args():
     """
     parser = argparse.ArgumentParser(
             description="""---------------------------------------------------------------------------
-    admixture-wrapper - A tool for automating analyses with the program admixture. A directory of
+    admixture-wrapper - A tool for automating analyses with the program admixture. A directory of 
     ped files should be specified using the -i flag. The minimum and maximum K values, the 
     number of replicates per K, and the cross-validation procedure folds value are set by the user. 
     The number of threads can also be specified. Outputs from each replicate are written to a unique 
@@ -57,7 +57,7 @@ def get_args():
                             required=False,
                             type=int,
                             default=1,
-                            help="OPTIONAL: Specifies number of threads to use.")
+                            help="OPTIONAL: Specifies number of threads to use. Default = 1.")
         
     return parser.parse_args()
 
