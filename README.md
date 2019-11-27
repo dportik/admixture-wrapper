@@ -31,7 +31,9 @@ The `admixture-wrapper.py` script is a command-line Python script that has five 
 + `-t <integer>`: Specifies number of threads to use. Default = 1.
 
 
-To run an analysis, you'll want to put the ped file(s) in a single directory. For example:
+**Running the Script**
+
+To run an analysis with the `admixture-wrapper.py` script, you'll first want to put the ped file(s) in a single directory. For example:
 
 ```
 admixture-analysis
