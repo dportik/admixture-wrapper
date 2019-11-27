@@ -87,7 +87,7 @@ For each ped file, the following outputs are written:
 
 + Directory **`Output-[ped name]`**: Contains the `.P`, `.Q`, and log files for every replicate for every K value tested. 
 
-+ File `[ped name].CV_All.txt`: The cross-validation scores for every replicate for every K value tested for this ped file. Example contents:
++ File **`[ped name].CV_All.txt`**: The cross-validation scores for every replicate for every K value tested for this ped file. Example contents:
 
 ```
 K	Rep	CV
@@ -108,7 +108,7 @@ K	Rep	CV
 3	5	0.3384
 ```
 
-+ File `[ped name].CV_Avg.txt`: The **average** cross-validation scores (and standard deviation) for every replicate for every K value tested for this ped file. This file can be used to plot the scores using the associated `cross_validation_plotting.R` R script. Example contents:
++ File **`[ped name].CV_Avg.txt`**: The **average** cross-validation scores (and standard deviation) for every replicate for every K value tested for this ped file. This file can be used to plot the scores using the associated `cross_validation_plotting.R` R script. Example contents:
 
 ```
 K	CV_Avg	CV_Stdev
@@ -126,7 +126,7 @@ K	CV_Avg	CV_Stdev
 12	0.4203	0.0
 ```
 
-In addition, a main log file is written in the input directory that is called `admixture_wrapper.log`. This file contains information about the settings used to run `admixture-wrapper.py`, as well as each specific command used to execute admixture (all ped files, all K values, all replicates). Example contents:
+In addition, a main log file is written in the input directory that is called **`admixture_wrapper.log`**. This file contains information about the settings used to run `admixture-wrapper.py`, as well as each specific command used to execute admixture (all ped files, all K values, all replicates). Example contents:
 
 ```
 Run executed: 2019-11-22 12:42:18.382613
