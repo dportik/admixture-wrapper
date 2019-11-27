@@ -188,7 +188,7 @@ def main():
         summarize_outputs(outdir, args.indir, args.kmin, args.kmax, p.split('.ped')[0])
         
     tf = datetime.now()
-    write_log(None, "\n\n{0}\n\nTotal elapsed time: {1} (H:M:S)\n\n{0}\n\n".format("="*80, tf - tb)
+    write_log(None, "\n\n{0}\n\nTotal elapsed time: {1} (H:M:S)\n\n{0}\n\n".format("="*80, tf - tb), args.indir)
     print("\n\n{}".format("="*80))
     print("\nTotal elapsed time: {} (H:M:S)\n".format(tf - tb))
     print("{}\n\n".format("="*80))
