@@ -85,7 +85,7 @@ admixture-analysis
 
 For each ped file, the following outputs are written:
 
-+ Directory `**Output-[ped name]**`: Contains the `.P`, `.Q`, and log files for every replicate for every K value tested. 
++ Directory **`Output-[ped name]`**: Contains the `.P`, `.Q`, and log files for every replicate for every K value tested. 
 
 + File `[ped name].CV_All.txt`: The cross-validation scores for every replicate for every K value tested for this ped file. Example contents:
 
