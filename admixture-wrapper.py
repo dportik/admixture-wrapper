@@ -107,14 +107,19 @@ def run_admixture(p, indir, kmin, kmax, reps, cv, threads):
             print("Running: K{0} replicate {1}".format(j[0], j[1]))
             print("{}\n".format("-"*50))
             
-            call_str = "admixture {0} {1} -j{2} --cv={3} | tee {4}.{1}.log.out".format(p, j[0], threads, cv, p.split('.ped')[0])
+            call_str = "admixture {0} {1} -j{2} --cv={3} | tee {4}.{1}.out".format(p, j[0], threads, cv, p.split('.ped')[0])
             write_log(None, "{0}: K{1} replicate {2}: {3}\n".format(datetime.now(), j[0], j[1], call_str), indir)
             print("{}\n".format(call_str))
             proc = sp.call(call_str, shell=True)
             
             outs = [f for f in os.listdir('.') if f.endswith(('.P', '.Q', '.out'))]
             for o in outs:
-                shutil.move(o, os.path.join(outdir, "{}.{}.{}.{}".format(o.split('.')[0], o.split('.')[1], j[1], o.split('.')[-1])))
+                pieces = o.split('.')
+                if len(pieces) == 3:
+                    shutil.move(o, os.path.join(outdir, "{}.{}.{}.{}".format(o.split('.')[0], o.split('.')[1], j[1], o.split('.')[-1])))
+                elif len(pieces) > 3:
+                    prefix = "_".join(pieces[:-2])
+                    shutil.move(o, os.path.join(outdir, "{}.{}.{}.{}".format(prefix, pieces[-2], j[1], pieces[-1])))
                 
             tf = datetime.now()
             print("\n{}".format("-"*50))
