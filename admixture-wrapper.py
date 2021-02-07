@@ -3,6 +3,7 @@ import subprocess as sp
 import shutil
 from datetime import datetime
 import numpy as np
+from numpy import random
 import argparse
 
 def get_args():
@@ -106,8 +107,9 @@ def run_admixture(p, indir, kmin, kmax, reps, cv, threads):
             print("\n\n{}".format("-"*50))
             print("Running: K{0} replicate {1}".format(j[0], j[1]))
             print("{}\n".format("-"*50))
-            
-            call_str = "admixture {0} {1} -j{2} --cv={3} | tee {4}.{1}.out".format(p, j[0], threads, cv, p.split('.ped')[0])
+
+            seed = random.randint(5000)
+            call_str = "admixture {0} {1} -j{2} --cv={3} -s {4} | tee {5}.{1}.out".format(p, j[0], threads, cv, seed, p.split('.ped')[0])
             write_log(None, "{0}: K{1} replicate {2}: {3}\n".format(datetime.now(), j[0], j[1], call_str), indir)
             print("{}\n".format(call_str))
             proc = sp.call(call_str, shell=True)
