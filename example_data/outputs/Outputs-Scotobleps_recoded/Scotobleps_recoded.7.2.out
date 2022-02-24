@@ -1,0 +1,54 @@
+****                   ADMIXTURE Version 1.3.0                  ****
+****                    Copyright 2008-2015                     ****
+****           David Alexander, Suyash Shringarpure,            ****
+****                John  Novembre, Ken Lange                   ****
+****                                                            ****
+****                 Please cite our paper!                     ****
+****   Information at www.genetics.ucla.edu/software/admixture  ****
+
+Parallel execution requested.  Will use 8 threads.
+Cross-validation will be performed.  Folds=10.
+Random seed: 762
+Point estimation method: Block relaxation algorithm
+Convergence acceleration algorithm: QuasiNewton, 3 secant conditions
+Point estimation will terminate when objective function delta < 0.0001
+Estimation of standard errors disabled; will compute point estimates only.
+Size of G: 66x7633
+Performing five EM steps to prime main algorithm
+1 (EM) 	Elapsed: 0.038	Loglikelihood: -166432	(delta): 506570
+2 (EM) 	Elapsed: 0.038	Loglikelihood: -150694	(delta): 15738.2
+3 (EM) 	Elapsed: 0.037	Loglikelihood: -146700	(delta): 3993.95
+4 (EM) 	Elapsed: 0.038	Loglikelihood: -143886	(delta): 2813.72
+5 (EM) 	Elapsed: 0.038	Loglikelihood: -141357	(delta): 2528.69
+Initial loglikelihood: -141357
+Starting main algorithm
+1 (QN/Block) 	Elapsed: 0.057	Loglikelihood: -105803	(delta): 35554.2
+2 (QN/Block) 	Elapsed: 0.058	Loglikelihood: -95217.3	(delta): 10586
+3 (QN/Block) 	Elapsed: 0.062	Loglikelihood: -90679.2	(delta): 4538.12
+4 (QN/Block) 	Elapsed: 0.064	Loglikelihood: -87505.6	(delta): 3173.53
+5 (QN/Block) 	Elapsed: 0.063	Loglikelihood: -85305.7	(delta): 2199.89
+6 (QN/Block) 	Elapsed: 0.067	Loglikelihood: -84383.2	(delta): 922.552
+7 (QN/Block) 	Elapsed: 0.063	Loglikelihood: -84025.1	(delta): 358.111
+8 (QN/Block) 	Elapsed: 0.063	Loglikelihood: -83846.4	(delta): 178.628
+9 (QN/Block) 	Elapsed: 0.062	Loglikelihood: -83795.9	(delta): 50.5098
+10 (QN/Block) 	Elapsed: 0.064	Loglikelihood: -83785.9	(delta): 10.075
+11 (QN/Block) 	Elapsed: 0.077	Loglikelihood: -83783.4	(delta): 2.44968
+12 (QN/Block) 	Elapsed: 0.07	Loglikelihood: -83782.1	(delta): 1.25315
+13 (QN/Block) 	Elapsed: 0.066	Loglikelihood: -83782	(delta): 0.124925
+14 (QN/Block) 	Elapsed: 0.065	Loglikelihood: -83782	(delta): 0.000438002
+15 (QN/Block) 	Elapsed: 0.061	Loglikelihood: -83782	(delta): 0.000161918
+16 (QN/Block) 	Elapsed: 0.062	Loglikelihood: -83782	(delta): 2.11003e-09
+Summary: 
+Converged in 16 iterations (1.248 sec)
+Loglikelihood: -83782.023248
+Fst divergences between estimated populations: 
+	Pop0	Pop1	Pop2	Pop3	Pop4	Pop5	
+Pop0	
+Pop1	0.504	
+Pop2	0.232	0.490	
+Pop3	0.267	0.492	0.151	
+Pop4	0.401	0.605	0.298	0.304	
+Pop5	0.105	0.482	0.223	0.256	0.380	
+Pop6	0.493	0.241	0.481	0.482	0.586	0.472	
+CV error (K=7): 0.28821
+Writing output files.

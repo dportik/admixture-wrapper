@@ -11,8 +11,7 @@ def get_args():
     Get arguments from command line.
     """
     parser = argparse.ArgumentParser(
-            description="""---------------------------------------------------------------------------
-    admixture-wrapper - A tool for automating analyses with the program admixture. A directory of 
+            description="""admixture-wrapper - A tool for automating analyses with the program admixture. A directory of 
     ped files should be specified using the -i flag. The minimum and maximum K values, the 
     number of replicates per K, and the cross-validation procedure folds value are set by the user. 
     The number of threads can also be specified. Outputs from each replicate are written to a unique 
@@ -23,8 +22,7 @@ def get_args():
     commands used to execute admixture for all K value replicates. 
     
  
-    DEPENDENCIES: admixture (in path).
-    ---------------------------------------------------------------------------""")
+    DEPENDENCIES: admixture (in path).""")
     
     parser.add_argument("-i", "--indir",
                             required=True,

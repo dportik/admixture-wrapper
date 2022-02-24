@@ -159,6 +159,17 @@ Running admixture for: populations_r50_m70_randomSNP_recoded.ped
 ...............
 ```
 
+### Example Data
+
+There are four example `ped` files provided in the `example_data/inputs` folder. I ran the script for these files using:
+
+```
+admixture-wrapper.py -i /example_data/inputs --kmin 1 --kmax 10 --reps 10 --cv 10 -t 8
+``` 
+
+The outputs were moved into the `example_data/outputs` folder. 
+
+Please test the script using these files before running on your own dataset to confirm everything is working well.
 
 
 ### License

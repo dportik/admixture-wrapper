@@ -1,0 +1,70 @@
+****                   ADMIXTURE Version 1.3.0                  ****
+****                    Copyright 2008-2015                     ****
+****           David Alexander, Suyash Shringarpure,            ****
+****                John  Novembre, Ken Lange                   ****
+****                                                            ****
+****                 Please cite our paper!                     ****
+****   Information at www.genetics.ucla.edu/software/admixture  ****
+
+Parallel execution requested.  Will use 8 threads.
+Cross-validation will be performed.  Folds=10.
+Random seed: 1111
+Point estimation method: Block relaxation algorithm
+Convergence acceleration algorithm: QuasiNewton, 3 secant conditions
+Point estimation will terminate when objective function delta < 0.0001
+Estimation of standard errors disabled; will compute point estimates only.
+Size of G: 133x453
+Performing five EM steps to prime main algorithm
+1 (EM) 	Elapsed: 0.003	Loglikelihood: -14195.2	(delta): 74139.8
+2 (EM) 	Elapsed: 0.003	Loglikelihood: -12759.8	(delta): 1435.4
+3 (EM) 	Elapsed: 0.003	Loglikelihood: -12526.7	(delta): 233.083
+4 (EM) 	Elapsed: 0.003	Loglikelihood: -12394.4	(delta): 132.293
+5 (EM) 	Elapsed: 0.003	Loglikelihood: -12297.7	(delta): 96.6911
+Initial loglikelihood: -12297.7
+Starting main algorithm
+1 (QN/Block) 	Elapsed: 0.005	Loglikelihood: -8985.95	(delta): 3311.8
+2 (QN/Block) 	Elapsed: 0.005	Loglikelihood: -7945.71	(delta): 1040.24
+3 (QN/Block) 	Elapsed: 0.007	Loglikelihood: -7509.96	(delta): 435.751
+4 (QN/Block) 	Elapsed: 0.007	Loglikelihood: -7182.91	(delta): 327.047
+5 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -7049.7	(delta): 133.214
+6 (QN/Block) 	Elapsed: 0.007	Loglikelihood: -7017.68	(delta): 32.0218
+7 (QN/Block) 	Elapsed: 0.007	Loglikelihood: -7013.37	(delta): 4.30349
+8 (QN/Block) 	Elapsed: 0.007	Loglikelihood: -7011.79	(delta): 1.58241
+9 (QN/Block) 	Elapsed: 0.007	Loglikelihood: -7011	(delta): 0.787367
+10 (QN/Block) 	Elapsed: 0.007	Loglikelihood: -7010.16	(delta): 0.847477
+11 (QN/Block) 	Elapsed: 0.008	Loglikelihood: -7009.13	(delta): 1.02919
+12 (QN/Block) 	Elapsed: 0.007	Loglikelihood: -7008.41	(delta): 0.718164
+13 (QN/Block) 	Elapsed: 0.007	Loglikelihood: -7007.94	(delta): 0.468152
+14 (QN/Block) 	Elapsed: 0.007	Loglikelihood: -7007.59	(delta): 0.354696
+15 (QN/Block) 	Elapsed: 0.007	Loglikelihood: -7007.38	(delta): 0.205396
+16 (QN/Block) 	Elapsed: 0.008	Loglikelihood: -7007.38	(delta): 0.00577507
+17 (QN/Block) 	Elapsed: 0.007	Loglikelihood: -7006.36	(delta): 1.0201
+18 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -7005.01	(delta): 1.34794
+19 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -7004.44	(delta): 0.570566
+20 (QN/Block) 	Elapsed: 0.005	Loglikelihood: -7003.9	(delta): 0.533572
+21 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -6992.9	(delta): 11.0054
+22 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -6990.42	(delta): 2.48159
+23 (QN/Block) 	Elapsed: 0.005	Loglikelihood: -6978.88	(delta): 11.5359
+24 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -6969.17	(delta): 9.70581
+25 (QN/Block) 	Elapsed: 0.005	Loglikelihood: -6961.15	(delta): 8.02582
+26 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -6957.03	(delta): 4.12067
+27 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -6956.58	(delta): 0.44412
+28 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -6956.57	(delta): 0.0180591
+29 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -6956.53	(delta): 0.0308137
+30 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -6956.52	(delta): 0.018809
+31 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -6956.51	(delta): 0.00177053
+32 (QN/Block) 	Elapsed: 0.007	Loglikelihood: -6956.51	(delta): 0.00141562
+33 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -6956.51	(delta): 0.000362048
+34 (QN/Block) 	Elapsed: 0.006	Loglikelihood: -6956.51	(delta): 2.54395e-05
+Summary: 
+Converged in 34 iterations (0.26 sec)
+Loglikelihood: -6956.512571
+Fst divergences between estimated populations: 
+	Pop0	Pop1	Pop2	Pop3	
+Pop0	
+Pop1	0.436	
+Pop2	0.482	0.438	
+Pop3	0.566	0.368	0.608	
+Pop4	0.399	0.439	0.419	0.596	
+CV error (K=5): 0.15183
+Writing output files.

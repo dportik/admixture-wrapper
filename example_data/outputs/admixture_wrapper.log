@@ -1,0 +1,1242 @@
+Run executed: 2022-02-24 13:44:28.940718
+
+admixture_wrapper settings:
+-i:		/Users/portik/Documents/GitHub/admixture-wrapper/example_data/inputs
+--kmin:	1
+--kmax:	10
+--reps:	10
+--cv:	10
+-t:		8
+
+
+
+================================================================================
+Running admixture for: Chiromantis_recoded.ped
+================================================================================
+
+2022-02-24 13:44:28.941131: K1 replicate 1: admixture Chiromantis_recoded.ped 1 -j8 --cv=10 -s 4332 | tee Chiromantis_recoded.1.out
+2022-02-24 13:44:29.763914: K1 replicate 1: Finished. Elapsed time: 0:00:00.822764
+
+2022-02-24 13:44:29.764205: K1 replicate 2: admixture Chiromantis_recoded.ped 1 -j8 --cv=10 -s 2803 | tee Chiromantis_recoded.1.out
+2022-02-24 13:44:30.573986: K1 replicate 2: Finished. Elapsed time: 0:00:00.809771
+
+2022-02-24 13:44:30.574257: K1 replicate 3: admixture Chiromantis_recoded.ped 1 -j8 --cv=10 -s 341 | tee Chiromantis_recoded.1.out
+2022-02-24 13:44:31.342365: K1 replicate 3: Finished. Elapsed time: 0:00:00.768079
+
+2022-02-24 13:44:31.342673: K1 replicate 4: admixture Chiromantis_recoded.ped 1 -j8 --cv=10 -s 2343 | tee Chiromantis_recoded.1.out
+2022-02-24 13:44:32.146211: K1 replicate 4: Finished. Elapsed time: 0:00:00.803553
+
+2022-02-24 13:44:32.146478: K1 replicate 5: admixture Chiromantis_recoded.ped 1 -j8 --cv=10 -s 3608 | tee Chiromantis_recoded.1.out
+2022-02-24 13:44:32.945966: K1 replicate 5: Finished. Elapsed time: 0:00:00.799416
+
+2022-02-24 13:44:32.946263: K1 replicate 6: admixture Chiromantis_recoded.ped 1 -j8 --cv=10 -s 2288 | tee Chiromantis_recoded.1.out
+2022-02-24 13:44:33.722413: K1 replicate 6: Finished. Elapsed time: 0:00:00.776166
+
+2022-02-24 13:44:33.722645: K1 replicate 7: admixture Chiromantis_recoded.ped 1 -j8 --cv=10 -s 4269 | tee Chiromantis_recoded.1.out
+2022-02-24 13:44:34.518271: K1 replicate 7: Finished. Elapsed time: 0:00:00.795572
+
+2022-02-24 13:44:34.518575: K1 replicate 8: admixture Chiromantis_recoded.ped 1 -j8 --cv=10 -s 728 | tee Chiromantis_recoded.1.out
+2022-02-24 13:44:35.286777: K1 replicate 8: Finished. Elapsed time: 0:00:00.768106
+
+2022-02-24 13:44:35.287061: K1 replicate 9: admixture Chiromantis_recoded.ped 1 -j8 --cv=10 -s 1773 | tee Chiromantis_recoded.1.out
+2022-02-24 13:44:36.082340: K1 replicate 9: Finished. Elapsed time: 0:00:00.795280
+
+2022-02-24 13:44:36.082612: K1 replicate 10: admixture Chiromantis_recoded.ped 1 -j8 --cv=10 -s 4984 | tee Chiromantis_recoded.1.out
+2022-02-24 13:44:36.881042: K1 replicate 10: Finished. Elapsed time: 0:00:00.798379
+
+2022-02-24 13:44:36.881341: K2 replicate 1: admixture Chiromantis_recoded.ped 2 -j8 --cv=10 -s 2722 | tee Chiromantis_recoded.2.out
+2022-02-24 13:44:38.305189: K2 replicate 1: Finished. Elapsed time: 0:00:01.423841
+
+2022-02-24 13:44:38.305461: K2 replicate 2: admixture Chiromantis_recoded.ped 2 -j8 --cv=10 -s 4753 | tee Chiromantis_recoded.2.out
+2022-02-24 13:44:39.599712: K2 replicate 2: Finished. Elapsed time: 0:00:01.294201
+
+2022-02-24 13:44:39.599967: K2 replicate 3: admixture Chiromantis_recoded.ped 2 -j8 --cv=10 -s 2628 | tee Chiromantis_recoded.2.out
+2022-02-24 13:44:40.852791: K2 replicate 3: Finished. Elapsed time: 0:00:01.252789
+
+2022-02-24 13:44:40.853065: K2 replicate 4: admixture Chiromantis_recoded.ped 2 -j8 --cv=10 -s 421 | tee Chiromantis_recoded.2.out
+2022-02-24 13:44:42.243673: K2 replicate 4: Finished. Elapsed time: 0:00:01.390592
+
+2022-02-24 13:44:42.243935: K2 replicate 5: admixture Chiromantis_recoded.ped 2 -j8 --cv=10 -s 866 | tee Chiromantis_recoded.2.out
+2022-02-24 13:44:43.550301: K2 replicate 5: Finished. Elapsed time: 0:00:01.306336
+
+2022-02-24 13:44:43.550537: K2 replicate 6: admixture Chiromantis_recoded.ped 2 -j8 --cv=10 -s 914 | tee Chiromantis_recoded.2.out
+2022-02-24 13:44:44.824872: K2 replicate 6: Finished. Elapsed time: 0:00:01.274297
+
+2022-02-24 13:44:44.825162: K2 replicate 7: admixture Chiromantis_recoded.ped 2 -j8 --cv=10 -s 2447 | tee Chiromantis_recoded.2.out
+2022-02-24 13:44:46.415845: K2 replicate 7: Finished. Elapsed time: 0:00:01.590695
+
+2022-02-24 13:44:46.416094: K2 replicate 8: admixture Chiromantis_recoded.ped 2 -j8 --cv=10 -s 2537 | tee Chiromantis_recoded.2.out
+2022-02-24 13:44:47.658188: K2 replicate 8: Finished. Elapsed time: 0:00:01.242102
+
+2022-02-24 13:44:47.658449: K2 replicate 9: admixture Chiromantis_recoded.ped 2 -j8 --cv=10 -s 4118 | tee Chiromantis_recoded.2.out
+2022-02-24 13:44:48.963780: K2 replicate 9: Finished. Elapsed time: 0:00:01.305309
+
+2022-02-24 13:44:48.964040: K2 replicate 10: admixture Chiromantis_recoded.ped 2 -j8 --cv=10 -s 3230 | tee Chiromantis_recoded.2.out
+2022-02-24 13:44:50.220159: K2 replicate 10: Finished. Elapsed time: 0:00:01.256126
+
+2022-02-24 13:44:50.220386: K3 replicate 1: admixture Chiromantis_recoded.ped 3 -j8 --cv=10 -s 2218 | tee Chiromantis_recoded.3.out
+2022-02-24 13:44:51.832228: K3 replicate 1: Finished. Elapsed time: 0:00:01.611800
+
+2022-02-24 13:44:51.832455: K3 replicate 2: admixture Chiromantis_recoded.ped 3 -j8 --cv=10 -s 2621 | tee Chiromantis_recoded.3.out
+2022-02-24 13:44:53.511861: K3 replicate 2: Finished. Elapsed time: 0:00:01.679351
+
+2022-02-24 13:44:53.512118: K3 replicate 3: admixture Chiromantis_recoded.ped 3 -j8 --cv=10 -s 565 | tee Chiromantis_recoded.3.out
+2022-02-24 13:44:55.329266: K3 replicate 3: Finished. Elapsed time: 0:00:01.817119
+
+2022-02-24 13:44:55.329490: K3 replicate 4: admixture Chiromantis_recoded.ped 3 -j8 --cv=10 -s 4544 | tee Chiromantis_recoded.3.out
+2022-02-24 13:44:57.126012: K3 replicate 4: Finished. Elapsed time: 0:00:01.796480
+
+2022-02-24 13:44:57.126265: K3 replicate 5: admixture Chiromantis_recoded.ped 3 -j8 --cv=10 -s 2471 | tee Chiromantis_recoded.3.out
+2022-02-24 13:44:58.895832: K3 replicate 5: Finished. Elapsed time: 0:00:01.769538
+
+2022-02-24 13:44:58.896085: K3 replicate 6: admixture Chiromantis_recoded.ped 3 -j8 --cv=10 -s 4937 | tee Chiromantis_recoded.3.out
+2022-02-24 13:45:03.100240: K3 replicate 6: Finished. Elapsed time: 0:00:04.204131
+
+2022-02-24 13:45:03.100518: K3 replicate 7: admixture Chiromantis_recoded.ped 3 -j8 --cv=10 -s 4541 | tee Chiromantis_recoded.3.out
+2022-02-24 13:45:05.052388: K3 replicate 7: Finished. Elapsed time: 0:00:01.951891
+
+2022-02-24 13:45:05.052653: K3 replicate 8: admixture Chiromantis_recoded.ped 3 -j8 --cv=10 -s 4182 | tee Chiromantis_recoded.3.out
+2022-02-24 13:45:06.704520: K3 replicate 8: Finished. Elapsed time: 0:00:01.651863
+
+2022-02-24 13:45:06.704771: K3 replicate 9: admixture Chiromantis_recoded.ped 3 -j8 --cv=10 -s 2072 | tee Chiromantis_recoded.3.out
+2022-02-24 13:45:08.667518: K3 replicate 9: Finished. Elapsed time: 0:00:01.962722
+
+2022-02-24 13:45:08.667780: K3 replicate 10: admixture Chiromantis_recoded.ped 3 -j8 --cv=10 -s 3666 | tee Chiromantis_recoded.3.out
+2022-02-24 13:45:10.398974: K3 replicate 10: Finished. Elapsed time: 0:00:01.731173
+
+2022-02-24 13:45:10.399230: K4 replicate 1: admixture Chiromantis_recoded.ped 4 -j8 --cv=10 -s 3515 | tee Chiromantis_recoded.4.out
+2022-02-24 13:45:12.644150: K4 replicate 1: Finished. Elapsed time: 0:00:02.244884
+
+2022-02-24 13:45:12.644405: K4 replicate 2: admixture Chiromantis_recoded.ped 4 -j8 --cv=10 -s 4340 | tee Chiromantis_recoded.4.out
+2022-02-24 13:45:14.661144: K4 replicate 2: Finished. Elapsed time: 0:00:02.016718
+
+2022-02-24 13:45:14.661415: K4 replicate 3: admixture Chiromantis_recoded.ped 4 -j8 --cv=10 -s 2004 | tee Chiromantis_recoded.4.out
+2022-02-24 13:45:16.649217: K4 replicate 3: Finished. Elapsed time: 0:00:01.987797
+
+2022-02-24 13:45:16.649469: K4 replicate 4: admixture Chiromantis_recoded.ped 4 -j8 --cv=10 -s 1369 | tee Chiromantis_recoded.4.out
+2022-02-24 13:45:18.633307: K4 replicate 4: Finished. Elapsed time: 0:00:01.983832
+
+2022-02-24 13:45:18.633561: K4 replicate 5: admixture Chiromantis_recoded.ped 4 -j8 --cv=10 -s 4665 | tee Chiromantis_recoded.4.out
+2022-02-24 13:45:20.782387: K4 replicate 5: Finished. Elapsed time: 0:00:02.148817
+
+2022-02-24 13:45:20.782663: K4 replicate 6: admixture Chiromantis_recoded.ped 4 -j8 --cv=10 -s 4639 | tee Chiromantis_recoded.4.out
+2022-02-24 13:45:22.777033: K4 replicate 6: Finished. Elapsed time: 0:00:01.994378
+
+2022-02-24 13:45:22.777288: K4 replicate 7: admixture Chiromantis_recoded.ped 4 -j8 --cv=10 -s 1839 | tee Chiromantis_recoded.4.out
+2022-02-24 13:45:24.771315: K4 replicate 7: Finished. Elapsed time: 0:00:01.993986
+
+2022-02-24 13:45:24.771575: K4 replicate 8: admixture Chiromantis_recoded.ped 4 -j8 --cv=10 -s 148 | tee Chiromantis_recoded.4.out
+2022-02-24 13:45:26.804188: K4 replicate 8: Finished. Elapsed time: 0:00:02.032622
+
+2022-02-24 13:45:26.804447: K4 replicate 9: admixture Chiromantis_recoded.ped 4 -j8 --cv=10 -s 3893 | tee Chiromantis_recoded.4.out
+2022-02-24 13:45:28.719482: K4 replicate 9: Finished. Elapsed time: 0:00:01.915057
+
+2022-02-24 13:45:28.719724: K4 replicate 10: admixture Chiromantis_recoded.ped 4 -j8 --cv=10 -s 2325 | tee Chiromantis_recoded.4.out
+2022-02-24 13:45:30.652231: K4 replicate 10: Finished. Elapsed time: 0:00:01.932513
+
+2022-02-24 13:45:30.652502: K5 replicate 1: admixture Chiromantis_recoded.ped 5 -j8 --cv=10 -s 1652 | tee Chiromantis_recoded.5.out
+2022-02-24 13:45:33.526691: K5 replicate 1: Finished. Elapsed time: 0:00:02.874197
+
+2022-02-24 13:45:33.526949: K5 replicate 2: admixture Chiromantis_recoded.ped 5 -j8 --cv=10 -s 2983 | tee Chiromantis_recoded.5.out
+2022-02-24 13:45:35.736142: K5 replicate 2: Finished. Elapsed time: 0:00:02.209166
+
+2022-02-24 13:45:35.736380: K5 replicate 3: admixture Chiromantis_recoded.ped 5 -j8 --cv=10 -s 2058 | tee Chiromantis_recoded.5.out
+2022-02-24 13:45:38.041923: K5 replicate 3: Finished. Elapsed time: 0:00:02.305551
+
+2022-02-24 13:45:38.042158: K5 replicate 4: admixture Chiromantis_recoded.ped 5 -j8 --cv=10 -s 1794 | tee Chiromantis_recoded.5.out
+2022-02-24 13:45:40.381872: K5 replicate 4: Finished. Elapsed time: 0:00:02.339654
+
+2022-02-24 13:45:40.382133: K5 replicate 5: admixture Chiromantis_recoded.ped 5 -j8 --cv=10 -s 2275 | tee Chiromantis_recoded.5.out
+2022-02-24 13:45:42.801204: K5 replicate 5: Finished. Elapsed time: 0:00:02.419078
+
+2022-02-24 13:45:42.801457: K5 replicate 6: admixture Chiromantis_recoded.ped 5 -j8 --cv=10 -s 4028 | tee Chiromantis_recoded.5.out
+2022-02-24 13:45:45.682744: K5 replicate 6: Finished. Elapsed time: 0:00:02.881267
+
+2022-02-24 13:45:45.683004: K5 replicate 7: admixture Chiromantis_recoded.ped 5 -j8 --cv=10 -s 1829 | tee Chiromantis_recoded.5.out
+2022-02-24 13:45:48.198184: K5 replicate 7: Finished. Elapsed time: 0:00:02.515145
+
+2022-02-24 13:45:48.198419: K5 replicate 8: admixture Chiromantis_recoded.ped 5 -j8 --cv=10 -s 2258 | tee Chiromantis_recoded.5.out
+2022-02-24 13:45:50.690876: K5 replicate 8: Finished. Elapsed time: 0:00:02.492417
+
+2022-02-24 13:45:50.691107: K5 replicate 9: admixture Chiromantis_recoded.ped 5 -j8 --cv=10 -s 3449 | tee Chiromantis_recoded.5.out
+2022-02-24 13:45:53.109856: K5 replicate 9: Finished. Elapsed time: 0:00:02.418741
+
+2022-02-24 13:45:53.110118: K5 replicate 10: admixture Chiromantis_recoded.ped 5 -j8 --cv=10 -s 4755 | tee Chiromantis_recoded.5.out
+2022-02-24 13:45:55.514365: K5 replicate 10: Finished. Elapsed time: 0:00:02.404243
+
+2022-02-24 13:45:55.514614: K6 replicate 1: admixture Chiromantis_recoded.ped 6 -j8 --cv=10 -s 3807 | tee Chiromantis_recoded.6.out
+2022-02-24 13:45:58.483064: K6 replicate 1: Finished. Elapsed time: 0:00:02.968444
+
+2022-02-24 13:45:58.483316: K6 replicate 2: admixture Chiromantis_recoded.ped 6 -j8 --cv=10 -s 1697 | tee Chiromantis_recoded.6.out
+2022-02-24 13:46:01.352281: K6 replicate 2: Finished. Elapsed time: 0:00:02.868943
+
+2022-02-24 13:46:01.352539: K6 replicate 3: admixture Chiromantis_recoded.ped 6 -j8 --cv=10 -s 4656 | tee Chiromantis_recoded.6.out
+2022-02-24 13:46:03.882854: K6 replicate 3: Finished. Elapsed time: 0:00:02.530277
+
+2022-02-24 13:46:03.883108: K6 replicate 4: admixture Chiromantis_recoded.ped 6 -j8 --cv=10 -s 3446 | tee Chiromantis_recoded.6.out
+2022-02-24 13:46:07.081328: K6 replicate 4: Finished. Elapsed time: 0:00:03.198239
+
+2022-02-24 13:46:07.081565: K6 replicate 5: admixture Chiromantis_recoded.ped 6 -j8 --cv=10 -s 1304 | tee Chiromantis_recoded.6.out
+2022-02-24 13:46:09.633502: K6 replicate 5: Finished. Elapsed time: 0:00:02.551945
+
+2022-02-24 13:46:09.633728: K6 replicate 6: admixture Chiromantis_recoded.ped 6 -j8 --cv=10 -s 4676 | tee Chiromantis_recoded.6.out
+2022-02-24 13:46:12.430619: K6 replicate 6: Finished. Elapsed time: 0:00:02.796896
+
+2022-02-24 13:46:12.430847: K6 replicate 7: admixture Chiromantis_recoded.ped 6 -j8 --cv=10 -s 2731 | tee Chiromantis_recoded.6.out
+2022-02-24 13:46:15.680528: K6 replicate 7: Finished. Elapsed time: 0:00:03.249631
+
+2022-02-24 13:46:15.680759: K6 replicate 8: admixture Chiromantis_recoded.ped 6 -j8 --cv=10 -s 3752 | tee Chiromantis_recoded.6.out
+2022-02-24 13:46:20.317530: K6 replicate 8: Finished. Elapsed time: 0:00:04.636702
+
+2022-02-24 13:46:20.317786: K6 replicate 9: admixture Chiromantis_recoded.ped 6 -j8 --cv=10 -s 4678 | tee Chiromantis_recoded.6.out
+2022-02-24 13:46:22.896165: K6 replicate 9: Finished. Elapsed time: 0:00:02.578387
+
+2022-02-24 13:46:22.896427: K6 replicate 10: admixture Chiromantis_recoded.ped 6 -j8 --cv=10 -s 4905 | tee Chiromantis_recoded.6.out
+2022-02-24 13:46:25.692698: K6 replicate 10: Finished. Elapsed time: 0:00:02.796247
+
+2022-02-24 13:46:25.692935: K7 replicate 1: admixture Chiromantis_recoded.ped 7 -j8 --cv=10 -s 518 | tee Chiromantis_recoded.7.out
+2022-02-24 13:46:28.628305: K7 replicate 1: Finished. Elapsed time: 0:00:02.935334
+
+2022-02-24 13:46:28.628541: K7 replicate 2: admixture Chiromantis_recoded.ped 7 -j8 --cv=10 -s 785 | tee Chiromantis_recoded.7.out
+2022-02-24 13:46:31.811576: K7 replicate 2: Finished. Elapsed time: 0:00:03.182995
+
+2022-02-24 13:46:31.811819: K7 replicate 3: admixture Chiromantis_recoded.ped 7 -j8 --cv=10 -s 4359 | tee Chiromantis_recoded.7.out
+2022-02-24 13:46:34.802367: K7 replicate 3: Finished. Elapsed time: 0:00:02.990462
+
+2022-02-24 13:46:34.802623: K7 replicate 4: admixture Chiromantis_recoded.ped 7 -j8 --cv=10 -s 3984 | tee Chiromantis_recoded.7.out
+2022-02-24 13:46:38.533309: K7 replicate 4: Finished. Elapsed time: 0:00:03.730696
+
+2022-02-24 13:46:38.533572: K7 replicate 5: admixture Chiromantis_recoded.ped 7 -j8 --cv=10 -s 4175 | tee Chiromantis_recoded.7.out
+2022-02-24 13:46:41.938681: K7 replicate 5: Finished. Elapsed time: 0:00:03.405116
+
+2022-02-24 13:46:41.938953: K7 replicate 6: admixture Chiromantis_recoded.ped 7 -j8 --cv=10 -s 2659 | tee Chiromantis_recoded.7.out
+2022-02-24 13:46:45.243239: K7 replicate 6: Finished. Elapsed time: 0:00:03.304259
+
+2022-02-24 13:46:45.243474: K7 replicate 7: admixture Chiromantis_recoded.ped 7 -j8 --cv=10 -s 274 | tee Chiromantis_recoded.7.out
+2022-02-24 13:46:48.515562: K7 replicate 7: Finished. Elapsed time: 0:00:03.272081
+
+2022-02-24 13:46:48.515825: K7 replicate 8: admixture Chiromantis_recoded.ped 7 -j8 --cv=10 -s 1536 | tee Chiromantis_recoded.7.out
+2022-02-24 13:46:51.815142: K7 replicate 8: Finished. Elapsed time: 0:00:03.299291
+
+2022-02-24 13:46:51.815388: K7 replicate 9: admixture Chiromantis_recoded.ped 7 -j8 --cv=10 -s 4716 | tee Chiromantis_recoded.7.out
+2022-02-24 13:46:54.781166: K7 replicate 9: Finished. Elapsed time: 0:00:02.965772
+
+2022-02-24 13:46:54.781434: K7 replicate 10: admixture Chiromantis_recoded.ped 7 -j8 --cv=10 -s 1562 | tee Chiromantis_recoded.7.out
+2022-02-24 13:46:58.072384: K7 replicate 10: Finished. Elapsed time: 0:00:03.290925
+
+2022-02-24 13:46:58.072646: K8 replicate 1: admixture Chiromantis_recoded.ped 8 -j8 --cv=10 -s 4253 | tee Chiromantis_recoded.8.out
+2022-02-24 13:47:01.548988: K8 replicate 1: Finished. Elapsed time: 0:00:03.476312
+
+2022-02-24 13:47:01.549272: K8 replicate 2: admixture Chiromantis_recoded.ped 8 -j8 --cv=10 -s 2330 | tee Chiromantis_recoded.8.out
+2022-02-24 13:47:06.365840: K8 replicate 2: Finished. Elapsed time: 0:00:04.816574
+
+2022-02-24 13:47:06.366102: K8 replicate 3: admixture Chiromantis_recoded.ped 8 -j8 --cv=10 -s 3737 | tee Chiromantis_recoded.8.out
+2022-02-24 13:47:10.533032: K8 replicate 3: Finished. Elapsed time: 0:00:04.166913
+
+2022-02-24 13:47:10.533277: K8 replicate 4: admixture Chiromantis_recoded.ped 8 -j8 --cv=10 -s 1012 | tee Chiromantis_recoded.8.out
+2022-02-24 13:47:13.773218: K8 replicate 4: Finished. Elapsed time: 0:00:03.239946
+
+2022-02-24 13:47:13.773521: K8 replicate 5: admixture Chiromantis_recoded.ped 8 -j8 --cv=10 -s 78 | tee Chiromantis_recoded.8.out
+2022-02-24 13:47:19.995226: K8 replicate 5: Finished. Elapsed time: 0:00:06.221714
+
+2022-02-24 13:47:19.995459: K8 replicate 6: admixture Chiromantis_recoded.ped 8 -j8 --cv=10 -s 4160 | tee Chiromantis_recoded.8.out
+2022-02-24 13:47:23.774891: K8 replicate 6: Finished. Elapsed time: 0:00:03.779400
+
+2022-02-24 13:47:23.775151: K8 replicate 7: admixture Chiromantis_recoded.ped 8 -j8 --cv=10 -s 1850 | tee Chiromantis_recoded.8.out
+2022-02-24 13:47:27.260826: K8 replicate 7: Finished. Elapsed time: 0:00:03.485658
+
+2022-02-24 13:47:27.261074: K8 replicate 8: admixture Chiromantis_recoded.ped 8 -j8 --cv=10 -s 2408 | tee Chiromantis_recoded.8.out
+2022-02-24 13:47:30.618248: K8 replicate 8: Finished. Elapsed time: 0:00:03.357137
+
+2022-02-24 13:47:30.618501: K8 replicate 9: admixture Chiromantis_recoded.ped 8 -j8 --cv=10 -s 4043 | tee Chiromantis_recoded.8.out
+2022-02-24 13:47:33.831364: K8 replicate 9: Finished. Elapsed time: 0:00:03.212816
+
+2022-02-24 13:47:33.831620: K8 replicate 10: admixture Chiromantis_recoded.ped 8 -j8 --cv=10 -s 2067 | tee Chiromantis_recoded.8.out
+2022-02-24 13:47:38.613413: K8 replicate 10: Finished. Elapsed time: 0:00:04.781773
+
+2022-02-24 13:47:38.613673: K9 replicate 1: admixture Chiromantis_recoded.ped 9 -j8 --cv=10 -s 1714 | tee Chiromantis_recoded.9.out
+2022-02-24 13:47:43.236748: K9 replicate 1: Finished. Elapsed time: 0:00:04.623065
+
+2022-02-24 13:47:43.236979: K9 replicate 2: admixture Chiromantis_recoded.ped 9 -j8 --cv=10 -s 4317 | tee Chiromantis_recoded.9.out
+2022-02-24 13:47:47.293304: K9 replicate 2: Finished. Elapsed time: 0:00:04.056270
+
+2022-02-24 13:47:47.293580: K9 replicate 3: admixture Chiromantis_recoded.ped 9 -j8 --cv=10 -s 3781 | tee Chiromantis_recoded.9.out
+2022-02-24 13:47:52.280820: K9 replicate 3: Finished. Elapsed time: 0:00:04.987256
+
+2022-02-24 13:47:52.281077: K9 replicate 4: admixture Chiromantis_recoded.ped 9 -j8 --cv=10 -s 4351 | tee Chiromantis_recoded.9.out
+2022-02-24 13:47:56.844378: K9 replicate 4: Finished. Elapsed time: 0:00:04.563276
+
+2022-02-24 13:47:56.844645: K9 replicate 5: admixture Chiromantis_recoded.ped 9 -j8 --cv=10 -s 186 | tee Chiromantis_recoded.9.out
+2022-02-24 13:48:01.498210: K9 replicate 5: Finished. Elapsed time: 0:00:04.653544
+
+2022-02-24 13:48:01.498459: K9 replicate 6: admixture Chiromantis_recoded.ped 9 -j8 --cv=10 -s 1668 | tee Chiromantis_recoded.9.out
+2022-02-24 13:48:05.614134: K9 replicate 6: Finished. Elapsed time: 0:00:04.115668
+
+2022-02-24 13:48:05.614391: K9 replicate 7: admixture Chiromantis_recoded.ped 9 -j8 --cv=10 -s 331 | tee Chiromantis_recoded.9.out
+2022-02-24 13:48:09.439460: K9 replicate 7: Finished. Elapsed time: 0:00:03.825054
+
+2022-02-24 13:48:09.439710: K9 replicate 8: admixture Chiromantis_recoded.ped 9 -j8 --cv=10 -s 3811 | tee Chiromantis_recoded.9.out
+2022-02-24 13:48:15.050951: K9 replicate 8: Finished. Elapsed time: 0:00:05.611248
+
+2022-02-24 13:48:15.051181: K9 replicate 9: admixture Chiromantis_recoded.ped 9 -j8 --cv=10 -s 2866 | tee Chiromantis_recoded.9.out
+2022-02-24 13:48:19.260139: K9 replicate 9: Finished. Elapsed time: 0:00:04.208933
+
+2022-02-24 13:48:19.260395: K9 replicate 10: admixture Chiromantis_recoded.ped 9 -j8 --cv=10 -s 4743 | tee Chiromantis_recoded.9.out
+2022-02-24 13:48:23.398981: K9 replicate 10: Finished. Elapsed time: 0:00:04.138592
+
+2022-02-24 13:48:23.399217: K10 replicate 1: admixture Chiromantis_recoded.ped 10 -j8 --cv=10 -s 4681 | tee Chiromantis_recoded.10.out
+2022-02-24 13:48:28.851270: K10 replicate 1: Finished. Elapsed time: 0:00:05.452033
+
+2022-02-24 13:48:28.851496: K10 replicate 2: admixture Chiromantis_recoded.ped 10 -j8 --cv=10 -s 3877 | tee Chiromantis_recoded.10.out
+2022-02-24 13:48:33.518525: K10 replicate 2: Finished. Elapsed time: 0:00:04.666959
+
+2022-02-24 13:48:33.518783: K10 replicate 3: admixture Chiromantis_recoded.ped 10 -j8 --cv=10 -s 869 | tee Chiromantis_recoded.10.out
+2022-02-24 13:48:37.872432: K10 replicate 3: Finished. Elapsed time: 0:00:04.353628
+
+2022-02-24 13:48:37.872711: K10 replicate 4: admixture Chiromantis_recoded.ped 10 -j8 --cv=10 -s 220 | tee Chiromantis_recoded.10.out
+2022-02-24 13:48:42.331301: K10 replicate 4: Finished. Elapsed time: 0:00:04.458584
+
+2022-02-24 13:48:42.331555: K10 replicate 5: admixture Chiromantis_recoded.ped 10 -j8 --cv=10 -s 1293 | tee Chiromantis_recoded.10.out
+2022-02-24 13:48:46.831548: K10 replicate 5: Finished. Elapsed time: 0:00:04.499958
+
+2022-02-24 13:48:46.831802: K10 replicate 6: admixture Chiromantis_recoded.ped 10 -j8 --cv=10 -s 1727 | tee Chiromantis_recoded.10.out
+2022-02-24 13:48:51.230654: K10 replicate 6: Finished. Elapsed time: 0:00:04.398844
+
+2022-02-24 13:48:51.230902: K10 replicate 7: admixture Chiromantis_recoded.ped 10 -j8 --cv=10 -s 291 | tee Chiromantis_recoded.10.out
+2022-02-24 13:48:56.574766: K10 replicate 7: Finished. Elapsed time: 0:00:05.343871
+
+2022-02-24 13:48:56.575002: K10 replicate 8: admixture Chiromantis_recoded.ped 10 -j8 --cv=10 -s 1491 | tee Chiromantis_recoded.10.out
+2022-02-24 13:49:00.987002: K10 replicate 8: Finished. Elapsed time: 0:00:04.411951
+
+2022-02-24 13:49:00.987263: K10 replicate 9: admixture Chiromantis_recoded.ped 10 -j8 --cv=10 -s 47 | tee Chiromantis_recoded.10.out
+2022-02-24 13:49:05.545595: K10 replicate 9: Finished. Elapsed time: 0:00:04.558340
+
+2022-02-24 13:49:05.545860: K10 replicate 10: admixture Chiromantis_recoded.ped 10 -j8 --cv=10 -s 64 | tee Chiromantis_recoded.10.out
+2022-02-24 13:49:09.808635: K10 replicate 10: Finished. Elapsed time: 0:00:04.262759
+
+
+
+================================================================================
+Running admixture for: Afrixalus_recoded.ped
+================================================================================
+
+2022-02-24 13:49:09.830085: K1 replicate 1: admixture Afrixalus_recoded.ped 1 -j8 --cv=10 -s 2788 | tee Afrixalus_recoded.1.out
+2022-02-24 13:49:10.195991: K1 replicate 1: Finished. Elapsed time: 0:00:00.365904
+
+2022-02-24 13:49:10.196212: K1 replicate 2: admixture Afrixalus_recoded.ped 1 -j8 --cv=10 -s 3666 | tee Afrixalus_recoded.1.out
+2022-02-24 13:49:10.560100: K1 replicate 2: Finished. Elapsed time: 0:00:00.363894
+
+2022-02-24 13:49:10.560334: K1 replicate 3: admixture Afrixalus_recoded.ped 1 -j8 --cv=10 -s 942 | tee Afrixalus_recoded.1.out
+2022-02-24 13:49:10.913801: K1 replicate 3: Finished. Elapsed time: 0:00:00.353450
+
+2022-02-24 13:49:10.914035: K1 replicate 4: admixture Afrixalus_recoded.ped 1 -j8 --cv=10 -s 3232 | tee Afrixalus_recoded.1.out
+2022-02-24 13:49:11.304971: K1 replicate 4: Finished. Elapsed time: 0:00:00.390915
+
+2022-02-24 13:49:11.305203: K1 replicate 5: admixture Afrixalus_recoded.ped 1 -j8 --cv=10 -s 3692 | tee Afrixalus_recoded.1.out
+2022-02-24 13:49:11.679910: K1 replicate 5: Finished. Elapsed time: 0:00:00.374683
+
+2022-02-24 13:49:11.680136: K1 replicate 6: admixture Afrixalus_recoded.ped 1 -j8 --cv=10 -s 4737 | tee Afrixalus_recoded.1.out
+2022-02-24 13:49:12.030149: K1 replicate 6: Finished. Elapsed time: 0:00:00.349979
+
+2022-02-24 13:49:12.030382: K1 replicate 7: admixture Afrixalus_recoded.ped 1 -j8 --cv=10 -s 96 | tee Afrixalus_recoded.1.out
+2022-02-24 13:49:12.397131: K1 replicate 7: Finished. Elapsed time: 0:00:00.366715
+
+2022-02-24 13:49:12.397362: K1 replicate 8: admixture Afrixalus_recoded.ped 1 -j8 --cv=10 -s 2756 | tee Afrixalus_recoded.1.out
+2022-02-24 13:49:12.761773: K1 replicate 8: Finished. Elapsed time: 0:00:00.364379
+
+2022-02-24 13:49:12.762011: K1 replicate 9: admixture Afrixalus_recoded.ped 1 -j8 --cv=10 -s 2953 | tee Afrixalus_recoded.1.out
+2022-02-24 13:49:13.141706: K1 replicate 9: Finished. Elapsed time: 0:00:00.379675
+
+2022-02-24 13:49:13.141950: K1 replicate 10: admixture Afrixalus_recoded.ped 1 -j8 --cv=10 -s 3949 | tee Afrixalus_recoded.1.out
+2022-02-24 13:49:13.513081: K1 replicate 10: Finished. Elapsed time: 0:00:00.371111
+
+2022-02-24 13:49:13.513322: K2 replicate 1: admixture Afrixalus_recoded.ped 2 -j8 --cv=10 -s 2613 | tee Afrixalus_recoded.2.out
+2022-02-24 13:49:14.175518: K2 replicate 1: Finished. Elapsed time: 0:00:00.662174
+
+2022-02-24 13:49:14.175810: K2 replicate 2: admixture Afrixalus_recoded.ped 2 -j8 --cv=10 -s 4538 | tee Afrixalus_recoded.2.out
+2022-02-24 13:49:14.769193: K2 replicate 2: Finished. Elapsed time: 0:00:00.593359
+
+2022-02-24 13:49:14.769432: K2 replicate 3: admixture Afrixalus_recoded.ped 2 -j8 --cv=10 -s 1220 | tee Afrixalus_recoded.2.out
+2022-02-24 13:49:15.325266: K2 replicate 3: Finished. Elapsed time: 0:00:00.555804
+
+2022-02-24 13:49:15.325509: K2 replicate 4: admixture Afrixalus_recoded.ped 2 -j8 --cv=10 -s 3380 | tee Afrixalus_recoded.2.out
+2022-02-24 13:49:15.952590: K2 replicate 4: Finished. Elapsed time: 0:00:00.627051
+
+2022-02-24 13:49:15.952827: K2 replicate 5: admixture Afrixalus_recoded.ped 2 -j8 --cv=10 -s 2296 | tee Afrixalus_recoded.2.out
+2022-02-24 13:49:16.589497: K2 replicate 5: Finished. Elapsed time: 0:00:00.636647
+
+2022-02-24 13:49:16.589737: K2 replicate 6: admixture Afrixalus_recoded.ped 2 -j8 --cv=10 -s 694 | tee Afrixalus_recoded.2.out
+2022-02-24 13:49:17.162608: K2 replicate 6: Finished. Elapsed time: 0:00:00.572839
+
+2022-02-24 13:49:17.162837: K2 replicate 7: admixture Afrixalus_recoded.ped 2 -j8 --cv=10 -s 3624 | tee Afrixalus_recoded.2.out
+2022-02-24 13:49:17.737713: K2 replicate 7: Finished. Elapsed time: 0:00:00.574829
+
+2022-02-24 13:49:17.737940: K2 replicate 8: admixture Afrixalus_recoded.ped 2 -j8 --cv=10 -s 4139 | tee Afrixalus_recoded.2.out
+2022-02-24 13:49:18.345372: K2 replicate 8: Finished. Elapsed time: 0:00:00.607409
+
+2022-02-24 13:49:18.345608: K2 replicate 9: admixture Afrixalus_recoded.ped 2 -j8 --cv=10 -s 499 | tee Afrixalus_recoded.2.out
+2022-02-24 13:49:18.897322: K2 replicate 9: Finished. Elapsed time: 0:00:00.551680
+
+2022-02-24 13:49:18.897564: K2 replicate 10: admixture Afrixalus_recoded.ped 2 -j8 --cv=10 -s 2108 | tee Afrixalus_recoded.2.out
+2022-02-24 13:49:19.499518: K2 replicate 10: Finished. Elapsed time: 0:00:00.601933
+
+2022-02-24 13:49:19.499760: K3 replicate 1: admixture Afrixalus_recoded.ped 3 -j8 --cv=10 -s 1853 | tee Afrixalus_recoded.3.out
+2022-02-24 13:49:20.248915: K3 replicate 1: Finished. Elapsed time: 0:00:00.749122
+
+2022-02-24 13:49:20.249153: K3 replicate 2: admixture Afrixalus_recoded.ped 3 -j8 --cv=10 -s 1047 | tee Afrixalus_recoded.3.out
+2022-02-24 13:49:21.007424: K3 replicate 2: Finished. Elapsed time: 0:00:00.758246
+
+2022-02-24 13:49:21.007667: K3 replicate 3: admixture Afrixalus_recoded.ped 3 -j8 --cv=10 -s 3302 | tee Afrixalus_recoded.3.out
+2022-02-24 13:49:21.803991: K3 replicate 3: Finished. Elapsed time: 0:00:00.796289
+
+2022-02-24 13:49:21.804237: K3 replicate 4: admixture Afrixalus_recoded.ped 3 -j8 --cv=10 -s 4662 | tee Afrixalus_recoded.3.out
+2022-02-24 13:49:22.534689: K3 replicate 4: Finished. Elapsed time: 0:00:00.730425
+
+2022-02-24 13:49:22.534944: K3 replicate 5: admixture Afrixalus_recoded.ped 3 -j8 --cv=10 -s 120 | tee Afrixalus_recoded.3.out
+2022-02-24 13:49:23.298512: K3 replicate 5: Finished. Elapsed time: 0:00:00.763538
+
+2022-02-24 13:49:23.298754: K3 replicate 6: admixture Afrixalus_recoded.ped 3 -j8 --cv=10 -s 38 | tee Afrixalus_recoded.3.out
+2022-02-24 13:49:24.030071: K3 replicate 6: Finished. Elapsed time: 0:00:00.731300
+
+2022-02-24 13:49:24.030307: K3 replicate 7: admixture Afrixalus_recoded.ped 3 -j8 --cv=10 -s 843 | tee Afrixalus_recoded.3.out
+2022-02-24 13:49:24.748251: K3 replicate 7: Finished. Elapsed time: 0:00:00.717905
+
+2022-02-24 13:49:24.748491: K3 replicate 8: admixture Afrixalus_recoded.ped 3 -j8 --cv=10 -s 4008 | tee Afrixalus_recoded.3.out
+2022-02-24 13:49:25.524108: K3 replicate 8: Finished. Elapsed time: 0:00:00.775592
+
+2022-02-24 13:49:25.524356: K3 replicate 9: admixture Afrixalus_recoded.ped 3 -j8 --cv=10 -s 4927 | tee Afrixalus_recoded.3.out
+2022-02-24 13:49:26.279767: K3 replicate 9: Finished. Elapsed time: 0:00:00.755378
+
+2022-02-24 13:49:26.280008: K3 replicate 10: admixture Afrixalus_recoded.ped 3 -j8 --cv=10 -s 2488 | tee Afrixalus_recoded.3.out
+2022-02-24 13:49:27.015039: K3 replicate 10: Finished. Elapsed time: 0:00:00.734981
+
+2022-02-24 13:49:27.015283: K4 replicate 1: admixture Afrixalus_recoded.ped 4 -j8 --cv=10 -s 1853 | tee Afrixalus_recoded.4.out
+2022-02-24 13:49:27.853256: K4 replicate 1: Finished. Elapsed time: 0:00:00.837980
+
+2022-02-24 13:49:27.853495: K4 replicate 2: admixture Afrixalus_recoded.ped 4 -j8 --cv=10 -s 3303 | tee Afrixalus_recoded.4.out
+2022-02-24 13:49:28.906264: K4 replicate 2: Finished. Elapsed time: 0:00:01.052723
+
+2022-02-24 13:49:28.906521: K4 replicate 3: admixture Afrixalus_recoded.ped 4 -j8 --cv=10 -s 3760 | tee Afrixalus_recoded.4.out
+2022-02-24 13:49:30.929124: K4 replicate 3: Finished. Elapsed time: 0:00:02.022610
+
+2022-02-24 13:49:30.929387: K4 replicate 4: admixture Afrixalus_recoded.ped 4 -j8 --cv=10 -s 4873 | tee Afrixalus_recoded.4.out
+2022-02-24 13:49:31.846900: K4 replicate 4: Finished. Elapsed time: 0:00:00.917521
+
+2022-02-24 13:49:31.847143: K4 replicate 5: admixture Afrixalus_recoded.ped 4 -j8 --cv=10 -s 302 | tee Afrixalus_recoded.4.out
+2022-02-24 13:49:32.777945: K4 replicate 5: Finished. Elapsed time: 0:00:00.930766
+
+2022-02-24 13:49:32.778206: K4 replicate 6: admixture Afrixalus_recoded.ped 4 -j8 --cv=10 -s 4926 | tee Afrixalus_recoded.4.out
+2022-02-24 13:49:33.655756: K4 replicate 6: Finished. Elapsed time: 0:00:00.877555
+
+2022-02-24 13:49:33.656008: K4 replicate 7: admixture Afrixalus_recoded.ped 4 -j8 --cv=10 -s 2052 | tee Afrixalus_recoded.4.out
+2022-02-24 13:49:34.518800: K4 replicate 7: Finished. Elapsed time: 0:00:00.862738
+
+2022-02-24 13:49:34.519056: K4 replicate 8: admixture Afrixalus_recoded.ped 4 -j8 --cv=10 -s 1820 | tee Afrixalus_recoded.4.out
+2022-02-24 13:49:35.430291: K4 replicate 8: Finished. Elapsed time: 0:00:00.911214
+
+2022-02-24 13:49:35.430542: K4 replicate 9: admixture Afrixalus_recoded.ped 4 -j8 --cv=10 -s 2644 | tee Afrixalus_recoded.4.out
+2022-02-24 13:49:36.283167: K4 replicate 9: Finished. Elapsed time: 0:00:00.852633
+
+2022-02-24 13:49:36.283411: K4 replicate 10: admixture Afrixalus_recoded.ped 4 -j8 --cv=10 -s 4814 | tee Afrixalus_recoded.4.out
+2022-02-24 13:49:37.192062: K4 replicate 10: Finished. Elapsed time: 0:00:00.908617
+
+2022-02-24 13:49:37.192302: K5 replicate 1: admixture Afrixalus_recoded.ped 5 -j8 --cv=10 -s 4204 | tee Afrixalus_recoded.5.out
+2022-02-24 13:49:38.169405: K5 replicate 1: Finished. Elapsed time: 0:00:00.977040
+
+2022-02-24 13:49:38.169658: K5 replicate 2: admixture Afrixalus_recoded.ped 5 -j8 --cv=10 -s 2467 | tee Afrixalus_recoded.5.out
+2022-02-24 13:49:39.233164: K5 replicate 2: Finished. Elapsed time: 0:00:01.063470
+
+2022-02-24 13:49:39.233746: K5 replicate 3: admixture Afrixalus_recoded.ped 5 -j8 --cv=10 -s 928 | tee Afrixalus_recoded.5.out
+2022-02-24 13:49:40.145455: K5 replicate 3: Finished. Elapsed time: 0:00:00.911689
+
+2022-02-24 13:49:40.145734: K5 replicate 4: admixture Afrixalus_recoded.ped 5 -j8 --cv=10 -s 3404 | tee Afrixalus_recoded.5.out
+2022-02-24 13:49:41.269602: K5 replicate 4: Finished. Elapsed time: 0:00:01.123876
+
+2022-02-24 13:49:41.269852: K5 replicate 5: admixture Afrixalus_recoded.ped 5 -j8 --cv=10 -s 274 | tee Afrixalus_recoded.5.out
+2022-02-24 13:49:42.248674: K5 replicate 5: Finished. Elapsed time: 0:00:00.978800
+
+2022-02-24 13:49:42.248917: K5 replicate 6: admixture Afrixalus_recoded.ped 5 -j8 --cv=10 -s 4300 | tee Afrixalus_recoded.5.out
+2022-02-24 13:49:43.212831: K5 replicate 6: Finished. Elapsed time: 0:00:00.963888
+
+2022-02-24 13:49:43.213136: K5 replicate 7: admixture Afrixalus_recoded.ped 5 -j8 --cv=10 -s 3608 | tee Afrixalus_recoded.5.out
+2022-02-24 13:49:44.499392: K5 replicate 7: Finished. Elapsed time: 0:00:01.286310
+
+2022-02-24 13:49:44.499632: K5 replicate 8: admixture Afrixalus_recoded.ped 5 -j8 --cv=10 -s 1129 | tee Afrixalus_recoded.5.out
+2022-02-24 13:49:45.517546: K5 replicate 8: Finished. Elapsed time: 0:00:01.017918
+
+2022-02-24 13:49:45.517805: K5 replicate 9: admixture Afrixalus_recoded.ped 5 -j8 --cv=10 -s 4194 | tee Afrixalus_recoded.5.out
+2022-02-24 13:49:46.475621: K5 replicate 9: Finished. Elapsed time: 0:00:00.957784
+
+2022-02-24 13:49:46.475863: K5 replicate 10: admixture Afrixalus_recoded.ped 5 -j8 --cv=10 -s 4456 | tee Afrixalus_recoded.5.out
+2022-02-24 13:49:47.549225: K5 replicate 10: Finished. Elapsed time: 0:00:01.073338
+
+2022-02-24 13:49:47.549556: K6 replicate 1: admixture Afrixalus_recoded.ped 6 -j8 --cv=10 -s 4517 | tee Afrixalus_recoded.6.out
+2022-02-24 13:49:48.778572: K6 replicate 1: Finished. Elapsed time: 0:00:01.229024
+
+2022-02-24 13:49:48.778829: K6 replicate 2: admixture Afrixalus_recoded.ped 6 -j8 --cv=10 -s 4020 | tee Afrixalus_recoded.6.out
+2022-02-24 13:49:49.908539: K6 replicate 2: Finished. Elapsed time: 0:00:01.129677
+
+2022-02-24 13:49:49.908782: K6 replicate 3: admixture Afrixalus_recoded.ped 6 -j8 --cv=10 -s 139 | tee Afrixalus_recoded.6.out
+2022-02-24 13:49:51.057373: K6 replicate 3: Finished. Elapsed time: 0:00:01.148560
+
+2022-02-24 13:49:51.057615: K6 replicate 4: admixture Afrixalus_recoded.ped 6 -j8 --cv=10 -s 2572 | tee Afrixalus_recoded.6.out
+2022-02-24 13:49:52.181544: K6 replicate 4: Finished. Elapsed time: 0:00:01.123899
+
+2022-02-24 13:49:52.181792: K6 replicate 5: admixture Afrixalus_recoded.ped 6 -j8 --cv=10 -s 1158 | tee Afrixalus_recoded.6.out
+2022-02-24 13:49:53.330030: K6 replicate 5: Finished. Elapsed time: 0:00:01.148247
+
+2022-02-24 13:49:53.330279: K6 replicate 6: admixture Afrixalus_recoded.ped 6 -j8 --cv=10 -s 111 | tee Afrixalus_recoded.6.out
+2022-02-24 13:49:54.763695: K6 replicate 6: Finished. Elapsed time: 0:00:01.433395
+
+2022-02-24 13:49:54.763937: K6 replicate 7: admixture Afrixalus_recoded.ped 6 -j8 --cv=10 -s 1848 | tee Afrixalus_recoded.6.out
+2022-02-24 13:49:55.853215: K6 replicate 7: Finished. Elapsed time: 0:00:01.089255
+
+2022-02-24 13:49:55.853455: K6 replicate 8: admixture Afrixalus_recoded.ped 6 -j8 --cv=10 -s 3106 | tee Afrixalus_recoded.6.out
+2022-02-24 13:49:57.020930: K6 replicate 8: Finished. Elapsed time: 0:00:01.167482
+
+2022-02-24 13:49:57.021181: K6 replicate 9: admixture Afrixalus_recoded.ped 6 -j8 --cv=10 -s 3145 | tee Afrixalus_recoded.6.out
+2022-02-24 13:49:58.328907: K6 replicate 9: Finished. Elapsed time: 0:00:01.307691
+
+2022-02-24 13:49:58.329153: K6 replicate 10: admixture Afrixalus_recoded.ped 6 -j8 --cv=10 -s 392 | tee Afrixalus_recoded.6.out
+2022-02-24 13:49:59.531810: K6 replicate 10: Finished. Elapsed time: 0:00:01.202593
+
+2022-02-24 13:49:59.532050: K7 replicate 1: admixture Afrixalus_recoded.ped 7 -j8 --cv=10 -s 2189 | tee Afrixalus_recoded.7.out
+2022-02-24 13:50:01.015676: K7 replicate 1: Finished. Elapsed time: 0:00:01.483606
+
+2022-02-24 13:50:01.015928: K7 replicate 2: admixture Afrixalus_recoded.ped 7 -j8 --cv=10 -s 3103 | tee Afrixalus_recoded.7.out
+2022-02-24 13:50:02.142034: K7 replicate 2: Finished. Elapsed time: 0:00:01.126072
+
+2022-02-24 13:50:02.142291: K7 replicate 3: admixture Afrixalus_recoded.ped 7 -j8 --cv=10 -s 2026 | tee Afrixalus_recoded.7.out
+2022-02-24 13:50:03.412632: K7 replicate 3: Finished. Elapsed time: 0:00:01.270321
+
+2022-02-24 13:50:03.412882: K7 replicate 4: admixture Afrixalus_recoded.ped 7 -j8 --cv=10 -s 3535 | tee Afrixalus_recoded.7.out
+2022-02-24 13:50:04.605334: K7 replicate 4: Finished. Elapsed time: 0:00:01.192427
+
+2022-02-24 13:50:04.605599: K7 replicate 5: admixture Afrixalus_recoded.ped 7 -j8 --cv=10 -s 2603 | tee Afrixalus_recoded.7.out
+2022-02-24 13:50:05.930803: K7 replicate 5: Finished. Elapsed time: 0:00:01.325189
+
+2022-02-24 13:50:05.931074: K7 replicate 6: admixture Afrixalus_recoded.ped 7 -j8 --cv=10 -s 4781 | tee Afrixalus_recoded.7.out
+2022-02-24 13:50:07.441118: K7 replicate 6: Finished. Elapsed time: 0:00:01.510054
+
+2022-02-24 13:50:07.441368: K7 replicate 7: admixture Afrixalus_recoded.ped 7 -j8 --cv=10 -s 2140 | tee Afrixalus_recoded.7.out
+2022-02-24 13:50:08.686553: K7 replicate 7: Finished. Elapsed time: 0:00:01.245192
+
+2022-02-24 13:50:08.686790: K7 replicate 8: admixture Afrixalus_recoded.ped 7 -j8 --cv=10 -s 1486 | tee Afrixalus_recoded.7.out
+2022-02-24 13:50:09.962487: K7 replicate 8: Finished. Elapsed time: 0:00:01.275663
+
+2022-02-24 13:50:09.962724: K7 replicate 9: admixture Afrixalus_recoded.ped 7 -j8 --cv=10 -s 550 | tee Afrixalus_recoded.7.out
+2022-02-24 13:50:11.239498: K7 replicate 9: Finished. Elapsed time: 0:00:01.276782
+
+2022-02-24 13:50:11.239819: K7 replicate 10: admixture Afrixalus_recoded.ped 7 -j8 --cv=10 -s 531 | tee Afrixalus_recoded.7.out
+2022-02-24 13:50:12.578394: K7 replicate 10: Finished. Elapsed time: 0:00:01.338527
+
+2022-02-24 13:50:12.578640: K8 replicate 1: admixture Afrixalus_recoded.ped 8 -j8 --cv=10 -s 566 | tee Afrixalus_recoded.8.out
+2022-02-24 13:50:13.959364: K8 replicate 1: Finished. Elapsed time: 0:00:01.380701
+
+2022-02-24 13:50:13.959649: K8 replicate 2: admixture Afrixalus_recoded.ped 8 -j8 --cv=10 -s 3900 | tee Afrixalus_recoded.8.out
+2022-02-24 13:50:15.583503: K8 replicate 2: Finished. Elapsed time: 0:00:01.623790
+
+2022-02-24 13:50:15.583927: K8 replicate 3: admixture Afrixalus_recoded.ped 8 -j8 --cv=10 -s 4786 | tee Afrixalus_recoded.8.out
+2022-02-24 13:50:17.320314: K8 replicate 3: Finished. Elapsed time: 0:00:01.736435
+
+2022-02-24 13:50:17.320569: K8 replicate 4: admixture Afrixalus_recoded.ped 8 -j8 --cv=10 -s 812 | tee Afrixalus_recoded.8.out
+2022-02-24 13:50:18.899812: K8 replicate 4: Finished. Elapsed time: 0:00:01.579253
+
+2022-02-24 13:50:18.900052: K8 replicate 5: admixture Afrixalus_recoded.ped 8 -j8 --cv=10 -s 4866 | tee Afrixalus_recoded.8.out
+2022-02-24 13:50:20.416277: K8 replicate 5: Finished. Elapsed time: 0:00:01.516234
+
+2022-02-24 13:50:20.416518: K8 replicate 6: admixture Afrixalus_recoded.ped 8 -j8 --cv=10 -s 954 | tee Afrixalus_recoded.8.out
+2022-02-24 13:50:21.871958: K8 replicate 6: Finished. Elapsed time: 0:00:01.455449
+
+2022-02-24 13:50:21.872207: K8 replicate 7: admixture Afrixalus_recoded.ped 8 -j8 --cv=10 -s 2221 | tee Afrixalus_recoded.8.out
+2022-02-24 13:50:23.153534: K8 replicate 7: Finished. Elapsed time: 0:00:01.281263
+
+2022-02-24 13:50:23.153775: K8 replicate 8: admixture Afrixalus_recoded.ped 8 -j8 --cv=10 -s 2501 | tee Afrixalus_recoded.8.out
+2022-02-24 13:50:24.600247: K8 replicate 8: Finished. Elapsed time: 0:00:01.446437
+
+2022-02-24 13:50:24.600500: K8 replicate 9: admixture Afrixalus_recoded.ped 8 -j8 --cv=10 -s 3762 | tee Afrixalus_recoded.8.out
+2022-02-24 13:50:26.443890: K8 replicate 9: Finished. Elapsed time: 0:00:01.843351
+
+2022-02-24 13:50:26.444153: K8 replicate 10: admixture Afrixalus_recoded.ped 8 -j8 --cv=10 -s 4792 | tee Afrixalus_recoded.8.out
+2022-02-24 13:50:27.738641: K8 replicate 10: Finished. Elapsed time: 0:00:01.294458
+
+2022-02-24 13:50:27.739050: K9 replicate 1: admixture Afrixalus_recoded.ped 9 -j8 --cv=10 -s 3282 | tee Afrixalus_recoded.9.out
+2022-02-24 13:50:29.386053: K9 replicate 1: Finished. Elapsed time: 0:00:01.647000
+
+2022-02-24 13:50:29.386300: K9 replicate 2: admixture Afrixalus_recoded.ped 9 -j8 --cv=10 -s 4466 | tee Afrixalus_recoded.9.out
+2022-02-24 13:50:31.135423: K9 replicate 2: Finished. Elapsed time: 0:00:01.749131
+
+2022-02-24 13:50:31.135665: K9 replicate 3: admixture Afrixalus_recoded.ped 9 -j8 --cv=10 -s 1132 | tee Afrixalus_recoded.9.out
+2022-02-24 13:50:33.361979: K9 replicate 3: Finished. Elapsed time: 0:00:02.226288
+
+2022-02-24 13:50:33.362294: K9 replicate 4: admixture Afrixalus_recoded.ped 9 -j8 --cv=10 -s 1821 | tee Afrixalus_recoded.9.out
+2022-02-24 13:50:35.047494: K9 replicate 4: Finished. Elapsed time: 0:00:01.685210
+
+2022-02-24 13:50:35.047738: K9 replicate 5: admixture Afrixalus_recoded.ped 9 -j8 --cv=10 -s 1814 | tee Afrixalus_recoded.9.out
+2022-02-24 13:50:36.570640: K9 replicate 5: Finished. Elapsed time: 0:00:01.522855
+
+2022-02-24 13:50:36.570889: K9 replicate 6: admixture Afrixalus_recoded.ped 9 -j8 --cv=10 -s 1686 | tee Afrixalus_recoded.9.out
+2022-02-24 13:50:38.070183: K9 replicate 6: Finished. Elapsed time: 0:00:01.499243
+
+2022-02-24 13:50:38.070447: K9 replicate 7: admixture Afrixalus_recoded.ped 9 -j8 --cv=10 -s 502 | tee Afrixalus_recoded.9.out
+2022-02-24 13:50:39.979000: K9 replicate 7: Finished. Elapsed time: 0:00:01.908562
+
+2022-02-24 13:50:39.979253: K9 replicate 8: admixture Afrixalus_recoded.ped 9 -j8 --cv=10 -s 3227 | tee Afrixalus_recoded.9.out
+2022-02-24 13:50:41.648052: K9 replicate 8: Finished. Elapsed time: 0:00:01.668693
+
+2022-02-24 13:50:41.648302: K9 replicate 9: admixture Afrixalus_recoded.ped 9 -j8 --cv=10 -s 4960 | tee Afrixalus_recoded.9.out
+2022-02-24 13:50:44.412855: K9 replicate 9: Finished. Elapsed time: 0:00:02.764516
+
+2022-02-24 13:50:44.413083: K9 replicate 10: admixture Afrixalus_recoded.ped 9 -j8 --cv=10 -s 1052 | tee Afrixalus_recoded.9.out
+2022-02-24 13:50:46.019220: K9 replicate 10: Finished. Elapsed time: 0:00:01.606144
+
+2022-02-24 13:50:46.019529: K10 replicate 1: admixture Afrixalus_recoded.ped 10 -j8 --cv=10 -s 3949 | tee Afrixalus_recoded.10.out
+2022-02-24 13:50:47.754387: K10 replicate 1: Finished. Elapsed time: 0:00:01.734870
+
+2022-02-24 13:50:47.754628: K10 replicate 2: admixture Afrixalus_recoded.ped 10 -j8 --cv=10 -s 4879 | tee Afrixalus_recoded.10.out
+2022-02-24 13:50:50.355270: K10 replicate 2: Finished. Elapsed time: 0:00:02.600609
+
+2022-02-24 13:50:50.355493: K10 replicate 3: admixture Afrixalus_recoded.ped 10 -j8 --cv=10 -s 3484 | tee Afrixalus_recoded.10.out
+2022-02-24 13:50:52.168077: K10 replicate 3: Finished. Elapsed time: 0:00:01.812536
+
+2022-02-24 13:50:52.168424: K10 replicate 4: admixture Afrixalus_recoded.ped 10 -j8 --cv=10 -s 331 | tee Afrixalus_recoded.10.out
+2022-02-24 13:50:53.875910: K10 replicate 4: Finished. Elapsed time: 0:00:01.707506
+
+2022-02-24 13:50:53.876163: K10 replicate 5: admixture Afrixalus_recoded.ped 10 -j8 --cv=10 -s 98 | tee Afrixalus_recoded.10.out
+2022-02-24 13:50:56.078871: K10 replicate 5: Finished. Elapsed time: 0:00:02.202682
+
+2022-02-24 13:50:56.079151: K10 replicate 6: admixture Afrixalus_recoded.ped 10 -j8 --cv=10 -s 2287 | tee Afrixalus_recoded.10.out
+2022-02-24 13:50:57.936857: K10 replicate 6: Finished. Elapsed time: 0:00:01.857665
+
+2022-02-24 13:50:57.937134: K10 replicate 7: admixture Afrixalus_recoded.ped 10 -j8 --cv=10 -s 4105 | tee Afrixalus_recoded.10.out
+2022-02-24 13:50:59.924737: K10 replicate 7: Finished. Elapsed time: 0:00:01.987578
+
+2022-02-24 13:50:59.924997: K10 replicate 8: admixture Afrixalus_recoded.ped 10 -j8 --cv=10 -s 3605 | tee Afrixalus_recoded.10.out
+2022-02-24 13:51:02.055329: K10 replicate 8: Finished. Elapsed time: 0:00:02.130338
+
+2022-02-24 13:51:02.055585: K10 replicate 9: admixture Afrixalus_recoded.ped 10 -j8 --cv=10 -s 4820 | tee Afrixalus_recoded.10.out
+2022-02-24 13:51:04.029342: K10 replicate 9: Finished. Elapsed time: 0:00:01.973767
+
+2022-02-24 13:51:04.029582: K10 replicate 10: admixture Afrixalus_recoded.ped 10 -j8 --cv=10 -s 1098 | tee Afrixalus_recoded.10.out
+2022-02-24 13:51:06.516901: K10 replicate 10: Finished. Elapsed time: 0:00:02.487324
+
+
+
+================================================================================
+Running admixture for: Scotobleps_recoded.ped
+================================================================================
+
+2022-02-24 13:51:06.639728: K1 replicate 1: admixture Scotobleps_recoded.ped 1 -j8 --cv=10 -s 827 | tee Scotobleps_recoded.1.out
+2022-02-24 13:51:07.494369: K1 replicate 1: Finished. Elapsed time: 0:00:00.854643
+
+2022-02-24 13:51:07.494592: K1 replicate 2: admixture Scotobleps_recoded.ped 1 -j8 --cv=10 -s 787 | tee Scotobleps_recoded.1.out
+2022-02-24 13:51:08.362320: K1 replicate 2: Finished. Elapsed time: 0:00:00.867695
+
+2022-02-24 13:51:08.362560: K1 replicate 3: admixture Scotobleps_recoded.ped 1 -j8 --cv=10 -s 1882 | tee Scotobleps_recoded.1.out
+2022-02-24 13:51:09.251468: K1 replicate 3: Finished. Elapsed time: 0:00:00.888883
+
+2022-02-24 13:51:09.251699: K1 replicate 4: admixture Scotobleps_recoded.ped 1 -j8 --cv=10 -s 4972 | tee Scotobleps_recoded.1.out
+2022-02-24 13:51:10.150357: K1 replicate 4: Finished. Elapsed time: 0:00:00.898610
+
+2022-02-24 13:51:10.150596: K1 replicate 5: admixture Scotobleps_recoded.ped 1 -j8 --cv=10 -s 1182 | tee Scotobleps_recoded.1.out
+2022-02-24 13:51:11.017559: K1 replicate 5: Finished. Elapsed time: 0:00:00.866937
+
+2022-02-24 13:51:11.017814: K1 replicate 6: admixture Scotobleps_recoded.ped 1 -j8 --cv=10 -s 393 | tee Scotobleps_recoded.1.out
+2022-02-24 13:51:11.899787: K1 replicate 6: Finished. Elapsed time: 0:00:00.881911
+
+2022-02-24 13:51:11.900019: K1 replicate 7: admixture Scotobleps_recoded.ped 1 -j8 --cv=10 -s 1458 | tee Scotobleps_recoded.1.out
+2022-02-24 13:51:12.779545: K1 replicate 7: Finished. Elapsed time: 0:00:00.879494
+
+2022-02-24 13:51:12.779781: K1 replicate 8: admixture Scotobleps_recoded.ped 1 -j8 --cv=10 -s 1194 | tee Scotobleps_recoded.1.out
+2022-02-24 13:51:13.659967: K1 replicate 8: Finished. Elapsed time: 0:00:00.880162
+
+2022-02-24 13:51:13.660212: K1 replicate 9: admixture Scotobleps_recoded.ped 1 -j8 --cv=10 -s 3821 | tee Scotobleps_recoded.1.out
+2022-02-24 13:51:14.518631: K1 replicate 9: Finished. Elapsed time: 0:00:00.858400
+
+2022-02-24 13:51:14.518876: K1 replicate 10: admixture Scotobleps_recoded.ped 1 -j8 --cv=10 -s 4731 | tee Scotobleps_recoded.1.out
+2022-02-24 13:51:15.371576: K1 replicate 10: Finished. Elapsed time: 0:00:00.852708
+
+2022-02-24 13:51:15.371822: K2 replicate 1: admixture Scotobleps_recoded.ped 2 -j8 --cv=10 -s 4101 | tee Scotobleps_recoded.2.out
+2022-02-24 13:51:16.988623: K2 replicate 1: Finished. Elapsed time: 0:00:01.616768
+
+2022-02-24 13:51:16.988856: K2 replicate 2: admixture Scotobleps_recoded.ped 2 -j8 --cv=10 -s 1964 | tee Scotobleps_recoded.2.out
+2022-02-24 13:51:18.376876: K2 replicate 2: Finished. Elapsed time: 0:00:01.387999
+
+2022-02-24 13:51:18.377121: K2 replicate 3: admixture Scotobleps_recoded.ped 2 -j8 --cv=10 -s 3302 | tee Scotobleps_recoded.2.out
+2022-02-24 13:51:19.891048: K2 replicate 3: Finished. Elapsed time: 0:00:01.513934
+
+2022-02-24 13:51:19.891281: K2 replicate 4: admixture Scotobleps_recoded.ped 2 -j8 --cv=10 -s 1432 | tee Scotobleps_recoded.2.out
+2022-02-24 13:51:21.363305: K2 replicate 4: Finished. Elapsed time: 0:00:01.471965
+
+2022-02-24 13:51:21.363541: K2 replicate 5: admixture Scotobleps_recoded.ped 2 -j8 --cv=10 -s 377 | tee Scotobleps_recoded.2.out
+2022-02-24 13:51:22.759919: K2 replicate 5: Finished. Elapsed time: 0:00:01.396328
+
+2022-02-24 13:51:22.760161: K2 replicate 6: admixture Scotobleps_recoded.ped 2 -j8 --cv=10 -s 172 | tee Scotobleps_recoded.2.out
+2022-02-24 13:51:24.207242: K2 replicate 6: Finished. Elapsed time: 0:00:01.447061
+
+2022-02-24 13:51:24.207473: K2 replicate 7: admixture Scotobleps_recoded.ped 2 -j8 --cv=10 -s 4358 | tee Scotobleps_recoded.2.out
+2022-02-24 13:51:25.744095: K2 replicate 7: Finished. Elapsed time: 0:00:01.536573
+
+2022-02-24 13:51:25.744332: K2 replicate 8: admixture Scotobleps_recoded.ped 2 -j8 --cv=10 -s 392 | tee Scotobleps_recoded.2.out
+2022-02-24 13:51:27.264857: K2 replicate 8: Finished. Elapsed time: 0:00:01.520532
+
+2022-02-24 13:51:27.265092: K2 replicate 9: admixture Scotobleps_recoded.ped 2 -j8 --cv=10 -s 3563 | tee Scotobleps_recoded.2.out
+2022-02-24 13:51:28.769053: K2 replicate 9: Finished. Elapsed time: 0:00:01.503956
+
+2022-02-24 13:51:28.769367: K2 replicate 10: admixture Scotobleps_recoded.ped 2 -j8 --cv=10 -s 134 | tee Scotobleps_recoded.2.out
+2022-02-24 13:51:30.275089: K2 replicate 10: Finished. Elapsed time: 0:00:01.505670
+
+2022-02-24 13:51:30.275330: K3 replicate 1: admixture Scotobleps_recoded.ped 3 -j8 --cv=10 -s 2940 | tee Scotobleps_recoded.3.out
+2022-02-24 13:51:32.246456: K3 replicate 1: Finished. Elapsed time: 0:00:01.971131
+
+2022-02-24 13:51:32.246691: K3 replicate 2: admixture Scotobleps_recoded.ped 3 -j8 --cv=10 -s 1944 | tee Scotobleps_recoded.3.out
+2022-02-24 13:51:34.023301: K3 replicate 2: Finished. Elapsed time: 0:00:01.776480
+
+2022-02-24 13:51:34.023892: K3 replicate 3: admixture Scotobleps_recoded.ped 3 -j8 --cv=10 -s 17 | tee Scotobleps_recoded.3.out
+2022-02-24 13:51:35.846957: K3 replicate 3: Finished. Elapsed time: 0:00:01.823129
+
+2022-02-24 13:51:35.847188: K3 replicate 4: admixture Scotobleps_recoded.ped 3 -j8 --cv=10 -s 3412 | tee Scotobleps_recoded.3.out
+2022-02-24 13:51:37.649464: K3 replicate 4: Finished. Elapsed time: 0:00:01.802283
+
+2022-02-24 13:51:37.649842: K3 replicate 5: admixture Scotobleps_recoded.ped 3 -j8 --cv=10 -s 1533 | tee Scotobleps_recoded.3.out
+2022-02-24 13:51:39.541227: K3 replicate 5: Finished. Elapsed time: 0:00:01.891510
+
+2022-02-24 13:51:39.541454: K3 replicate 6: admixture Scotobleps_recoded.ped 3 -j8 --cv=10 -s 3662 | tee Scotobleps_recoded.3.out
+2022-02-24 13:51:41.332064: K3 replicate 6: Finished. Elapsed time: 0:00:01.790616
+
+2022-02-24 13:51:41.332304: K3 replicate 7: admixture Scotobleps_recoded.ped 3 -j8 --cv=10 -s 514 | tee Scotobleps_recoded.3.out
+2022-02-24 13:51:43.224025: K3 replicate 7: Finished. Elapsed time: 0:00:01.891659
+
+2022-02-24 13:51:43.224692: K3 replicate 8: admixture Scotobleps_recoded.ped 3 -j8 --cv=10 -s 2029 | tee Scotobleps_recoded.3.out
+2022-02-24 13:51:45.061545: K3 replicate 8: Finished. Elapsed time: 0:00:01.836923
+
+2022-02-24 13:51:45.061780: K3 replicate 9: admixture Scotobleps_recoded.ped 3 -j8 --cv=10 -s 1878 | tee Scotobleps_recoded.3.out
+2022-02-24 13:51:47.279413: K3 replicate 9: Finished. Elapsed time: 0:00:02.217603
+
+2022-02-24 13:51:47.279649: K3 replicate 10: admixture Scotobleps_recoded.ped 3 -j8 --cv=10 -s 996 | tee Scotobleps_recoded.3.out
+2022-02-24 13:51:49.101774: K3 replicate 10: Finished. Elapsed time: 0:00:01.822102
+
+2022-02-24 13:51:49.102009: K4 replicate 1: admixture Scotobleps_recoded.ped 4 -j8 --cv=10 -s 4132 | tee Scotobleps_recoded.4.out
+2022-02-24 13:51:51.318020: K4 replicate 1: Finished. Elapsed time: 0:00:02.216017
+
+2022-02-24 13:51:51.318275: K4 replicate 2: admixture Scotobleps_recoded.ped 4 -j8 --cv=10 -s 791 | tee Scotobleps_recoded.4.out
+2022-02-24 13:51:53.533919: K4 replicate 2: Finished. Elapsed time: 0:00:02.215618
+
+2022-02-24 13:51:53.534157: K4 replicate 3: admixture Scotobleps_recoded.ped 4 -j8 --cv=10 -s 2241 | tee Scotobleps_recoded.4.out
+2022-02-24 13:51:55.974633: K4 replicate 3: Finished. Elapsed time: 0:00:02.440416
+
+2022-02-24 13:51:55.974885: K4 replicate 4: admixture Scotobleps_recoded.ped 4 -j8 --cv=10 -s 2204 | tee Scotobleps_recoded.4.out
+2022-02-24 13:51:58.343248: K4 replicate 4: Finished. Elapsed time: 0:00:02.368371
+
+2022-02-24 13:51:58.343487: K4 replicate 5: admixture Scotobleps_recoded.ped 4 -j8 --cv=10 -s 3069 | tee Scotobleps_recoded.4.out
+2022-02-24 13:52:00.980530: K4 replicate 5: Finished. Elapsed time: 0:00:02.637008
+
+2022-02-24 13:52:00.980772: K4 replicate 6: admixture Scotobleps_recoded.ped 4 -j8 --cv=10 -s 1228 | tee Scotobleps_recoded.4.out
+2022-02-24 13:52:03.238496: K4 replicate 6: Finished. Elapsed time: 0:00:02.257698
+
+2022-02-24 13:52:03.238738: K4 replicate 7: admixture Scotobleps_recoded.ped 4 -j8 --cv=10 -s 2611 | tee Scotobleps_recoded.4.out
+2022-02-24 13:52:05.517033: K4 replicate 7: Finished. Elapsed time: 0:00:02.278267
+
+2022-02-24 13:52:05.517280: K4 replicate 8: admixture Scotobleps_recoded.ped 4 -j8 --cv=10 -s 3144 | tee Scotobleps_recoded.4.out
+2022-02-24 13:52:07.753354: K4 replicate 8: Finished. Elapsed time: 0:00:02.236090
+
+2022-02-24 13:52:07.753592: K4 replicate 9: admixture Scotobleps_recoded.ped 4 -j8 --cv=10 -s 2798 | tee Scotobleps_recoded.4.out
+2022-02-24 13:52:10.120921: K4 replicate 9: Finished. Elapsed time: 0:00:02.367291
+
+2022-02-24 13:52:10.121167: K4 replicate 10: admixture Scotobleps_recoded.ped 4 -j8 --cv=10 -s 3221 | tee Scotobleps_recoded.4.out
+2022-02-24 13:52:12.555908: K4 replicate 10: Finished. Elapsed time: 0:00:02.434748
+
+2022-02-24 13:52:12.556153: K5 replicate 1: admixture Scotobleps_recoded.ped 5 -j8 --cv=10 -s 3613 | tee Scotobleps_recoded.5.out
+2022-02-24 13:52:15.097296: K5 replicate 1: Finished. Elapsed time: 0:00:02.541111
+
+2022-02-24 13:52:15.097539: K5 replicate 2: admixture Scotobleps_recoded.ped 5 -j8 --cv=10 -s 1029 | tee Scotobleps_recoded.5.out
+2022-02-24 13:52:17.777602: K5 replicate 2: Finished. Elapsed time: 0:00:02.680018
+
+2022-02-24 13:52:17.777938: K5 replicate 3: admixture Scotobleps_recoded.ped 5 -j8 --cv=10 -s 4040 | tee Scotobleps_recoded.5.out
+2022-02-24 13:52:20.444455: K5 replicate 3: Finished. Elapsed time: 0:00:02.666528
+
+2022-02-24 13:52:20.444687: K5 replicate 4: admixture Scotobleps_recoded.ped 5 -j8 --cv=10 -s 4458 | tee Scotobleps_recoded.5.out
+2022-02-24 13:52:23.006686: K5 replicate 4: Finished. Elapsed time: 0:00:02.562003
+
+2022-02-24 13:52:23.006931: K5 replicate 5: admixture Scotobleps_recoded.ped 5 -j8 --cv=10 -s 3270 | tee Scotobleps_recoded.5.out
+2022-02-24 13:52:25.460293: K5 replicate 5: Finished. Elapsed time: 0:00:02.453321
+
+2022-02-24 13:52:25.460594: K5 replicate 6: admixture Scotobleps_recoded.ped 5 -j8 --cv=10 -s 1233 | tee Scotobleps_recoded.5.out
+2022-02-24 13:52:28.043678: K5 replicate 6: Finished. Elapsed time: 0:00:02.583056
+
+2022-02-24 13:52:28.043916: K5 replicate 7: admixture Scotobleps_recoded.ped 5 -j8 --cv=10 -s 826 | tee Scotobleps_recoded.5.out
+2022-02-24 13:52:30.588645: K5 replicate 7: Finished. Elapsed time: 0:00:02.544738
+
+2022-02-24 13:52:30.588882: K5 replicate 8: admixture Scotobleps_recoded.ped 5 -j8 --cv=10 -s 2136 | tee Scotobleps_recoded.5.out
+2022-02-24 13:52:33.362772: K5 replicate 8: Finished. Elapsed time: 0:00:02.773870
+
+2022-02-24 13:52:33.363011: K5 replicate 9: admixture Scotobleps_recoded.ped 5 -j8 --cv=10 -s 1250 | tee Scotobleps_recoded.5.out
+2022-02-24 13:52:35.898308: K5 replicate 9: Finished. Elapsed time: 0:00:02.535276
+
+2022-02-24 13:52:35.898538: K5 replicate 10: admixture Scotobleps_recoded.ped 5 -j8 --cv=10 -s 2478 | tee Scotobleps_recoded.5.out
+2022-02-24 13:52:38.672635: K5 replicate 10: Finished. Elapsed time: 0:00:02.774063
+
+2022-02-24 13:52:38.672901: K6 replicate 1: admixture Scotobleps_recoded.ped 6 -j8 --cv=10 -s 496 | tee Scotobleps_recoded.6.out
+2022-02-24 13:52:42.018502: K6 replicate 1: Finished. Elapsed time: 0:00:03.345567
+
+2022-02-24 13:52:42.018845: K6 replicate 2: admixture Scotobleps_recoded.ped 6 -j8 --cv=10 -s 3193 | tee Scotobleps_recoded.6.out
+2022-02-24 13:52:44.988823: K6 replicate 2: Finished. Elapsed time: 0:00:02.969983
+
+2022-02-24 13:52:44.989081: K6 replicate 3: admixture Scotobleps_recoded.ped 6 -j8 --cv=10 -s 3707 | tee Scotobleps_recoded.6.out
+2022-02-24 13:52:47.835875: K6 replicate 3: Finished. Elapsed time: 0:00:02.846758
+
+2022-02-24 13:52:47.836122: K6 replicate 4: admixture Scotobleps_recoded.ped 6 -j8 --cv=10 -s 0 | tee Scotobleps_recoded.6.out
+2022-02-24 13:52:50.572407: K6 replicate 4: Finished. Elapsed time: 0:00:02.736289
+
+2022-02-24 13:52:50.572665: K6 replicate 5: admixture Scotobleps_recoded.ped 6 -j8 --cv=10 -s 4144 | tee Scotobleps_recoded.6.out
+2022-02-24 13:52:53.527576: K6 replicate 5: Finished. Elapsed time: 0:00:02.954909
+
+2022-02-24 13:52:53.527919: K6 replicate 6: admixture Scotobleps_recoded.ped 6 -j8 --cv=10 -s 4432 | tee Scotobleps_recoded.6.out
+2022-02-24 13:52:56.310240: K6 replicate 6: Finished. Elapsed time: 0:00:02.782332
+
+2022-02-24 13:52:56.310495: K6 replicate 7: admixture Scotobleps_recoded.ped 6 -j8 --cv=10 -s 40 | tee Scotobleps_recoded.6.out
+2022-02-24 13:52:59.207708: K6 replicate 7: Finished. Elapsed time: 0:00:02.897193
+
+2022-02-24 13:52:59.207960: K6 replicate 8: admixture Scotobleps_recoded.ped 6 -j8 --cv=10 -s 4327 | tee Scotobleps_recoded.6.out
+2022-02-24 13:53:02.001217: K6 replicate 8: Finished. Elapsed time: 0:00:02.793231
+
+2022-02-24 13:53:02.001454: K6 replicate 9: admixture Scotobleps_recoded.ped 6 -j8 --cv=10 -s 3523 | tee Scotobleps_recoded.6.out
+2022-02-24 13:53:04.706296: K6 replicate 9: Finished. Elapsed time: 0:00:02.704810
+
+2022-02-24 13:53:04.706540: K6 replicate 10: admixture Scotobleps_recoded.ped 6 -j8 --cv=10 -s 1620 | tee Scotobleps_recoded.6.out
+2022-02-24 13:53:07.406347: K6 replicate 10: Finished. Elapsed time: 0:00:02.699770
+
+2022-02-24 13:53:07.406583: K7 replicate 1: admixture Scotobleps_recoded.ped 7 -j8 --cv=10 -s 130 | tee Scotobleps_recoded.7.out
+2022-02-24 13:53:10.565894: K7 replicate 1: Finished. Elapsed time: 0:00:03.159291
+
+2022-02-24 13:53:10.566134: K7 replicate 2: admixture Scotobleps_recoded.ped 7 -j8 --cv=10 -s 762 | tee Scotobleps_recoded.7.out
+2022-02-24 13:53:13.794029: K7 replicate 2: Finished. Elapsed time: 0:00:03.227864
+
+2022-02-24 13:53:13.794271: K7 replicate 3: admixture Scotobleps_recoded.ped 7 -j8 --cv=10 -s 2469 | tee Scotobleps_recoded.7.out
+2022-02-24 13:53:17.075749: K7 replicate 3: Finished. Elapsed time: 0:00:03.281472
+
+2022-02-24 13:53:17.076099: K7 replicate 4: admixture Scotobleps_recoded.ped 7 -j8 --cv=10 -s 3472 | tee Scotobleps_recoded.7.out
+2022-02-24 13:53:20.357164: K7 replicate 4: Finished. Elapsed time: 0:00:03.281084
+
+2022-02-24 13:53:20.357470: K7 replicate 5: admixture Scotobleps_recoded.ped 7 -j8 --cv=10 -s 1140 | tee Scotobleps_recoded.7.out
+2022-02-24 13:53:24.189995: K7 replicate 5: Finished. Elapsed time: 0:00:03.832493
+
+2022-02-24 13:53:24.190240: K7 replicate 6: admixture Scotobleps_recoded.ped 7 -j8 --cv=10 -s 2241 | tee Scotobleps_recoded.7.out
+2022-02-24 13:53:27.381019: K7 replicate 6: Finished. Elapsed time: 0:00:03.190741
+
+2022-02-24 13:53:27.381277: K7 replicate 7: admixture Scotobleps_recoded.ped 7 -j8 --cv=10 -s 465 | tee Scotobleps_recoded.7.out
+2022-02-24 13:53:31.264100: K7 replicate 7: Finished. Elapsed time: 0:00:03.882832
+
+2022-02-24 13:53:31.264340: K7 replicate 8: admixture Scotobleps_recoded.ped 7 -j8 --cv=10 -s 3552 | tee Scotobleps_recoded.7.out
+2022-02-24 13:53:34.644311: K7 replicate 8: Finished. Elapsed time: 0:00:03.379926
+
+2022-02-24 13:53:34.644556: K7 replicate 9: admixture Scotobleps_recoded.ped 7 -j8 --cv=10 -s 3078 | tee Scotobleps_recoded.7.out
+2022-02-24 13:53:37.818718: K7 replicate 9: Finished. Elapsed time: 0:00:03.174139
+
+2022-02-24 13:53:37.818970: K7 replicate 10: admixture Scotobleps_recoded.ped 7 -j8 --cv=10 -s 2584 | tee Scotobleps_recoded.7.out
+2022-02-24 13:53:40.949280: K7 replicate 10: Finished. Elapsed time: 0:00:03.130316
+
+2022-02-24 13:53:40.949518: K8 replicate 1: admixture Scotobleps_recoded.ped 8 -j8 --cv=10 -s 4468 | tee Scotobleps_recoded.8.out
+2022-02-24 13:53:44.851611: K8 replicate 1: Finished. Elapsed time: 0:00:03.902055
+
+2022-02-24 13:53:44.851845: K8 replicate 2: admixture Scotobleps_recoded.ped 8 -j8 --cv=10 -s 149 | tee Scotobleps_recoded.8.out
+2022-02-24 13:53:48.285440: K8 replicate 2: Finished. Elapsed time: 0:00:03.433559
+
+2022-02-24 13:53:48.285684: K8 replicate 3: admixture Scotobleps_recoded.ped 8 -j8 --cv=10 -s 2927 | tee Scotobleps_recoded.8.out
+2022-02-24 13:53:51.556133: K8 replicate 3: Finished. Elapsed time: 0:00:03.270416
+
+2022-02-24 13:53:51.556386: K8 replicate 4: admixture Scotobleps_recoded.ped 8 -j8 --cv=10 -s 19 | tee Scotobleps_recoded.8.out
+2022-02-24 13:53:57.230655: K8 replicate 4: Finished. Elapsed time: 0:00:05.674273
+
+2022-02-24 13:53:57.230929: K8 replicate 5: admixture Scotobleps_recoded.ped 8 -j8 --cv=10 -s 864 | tee Scotobleps_recoded.8.out
+2022-02-24 13:54:00.707206: K8 replicate 5: Finished. Elapsed time: 0:00:03.476287
+
+2022-02-24 13:54:00.707446: K8 replicate 6: admixture Scotobleps_recoded.ped 8 -j8 --cv=10 -s 2935 | tee Scotobleps_recoded.8.out
+2022-02-24 13:54:04.174719: K8 replicate 6: Finished. Elapsed time: 0:00:03.467245
+
+2022-02-24 13:54:04.174962: K8 replicate 7: admixture Scotobleps_recoded.ped 8 -j8 --cv=10 -s 2940 | tee Scotobleps_recoded.8.out
+2022-02-24 13:54:08.825602: K8 replicate 7: Finished. Elapsed time: 0:00:04.650601
+
+2022-02-24 13:54:08.825860: K8 replicate 8: admixture Scotobleps_recoded.ped 8 -j8 --cv=10 -s 2028 | tee Scotobleps_recoded.8.out
+2022-02-24 13:54:12.278111: K8 replicate 8: Finished. Elapsed time: 0:00:03.452254
+
+2022-02-24 13:54:12.278367: K8 replicate 9: admixture Scotobleps_recoded.ped 8 -j8 --cv=10 -s 3402 | tee Scotobleps_recoded.8.out
+2022-02-24 13:54:16.387140: K8 replicate 9: Finished. Elapsed time: 0:00:04.108780
+
+2022-02-24 13:54:16.387394: K8 replicate 10: admixture Scotobleps_recoded.ped 8 -j8 --cv=10 -s 439 | tee Scotobleps_recoded.8.out
+2022-02-24 13:54:20.025861: K8 replicate 10: Finished. Elapsed time: 0:00:03.638458
+
+2022-02-24 13:54:20.026156: K9 replicate 1: admixture Scotobleps_recoded.ped 9 -j8 --cv=10 -s 4694 | tee Scotobleps_recoded.9.out
+2022-02-24 13:54:24.506200: K9 replicate 1: Finished. Elapsed time: 0:00:04.480051
+
+2022-02-24 13:54:24.506443: K9 replicate 2: admixture Scotobleps_recoded.ped 9 -j8 --cv=10 -s 4617 | tee Scotobleps_recoded.9.out
+2022-02-24 13:54:29.054941: K9 replicate 2: Finished. Elapsed time: 0:00:04.548463
+
+2022-02-24 13:54:29.055197: K9 replicate 3: admixture Scotobleps_recoded.ped 9 -j8 --cv=10 -s 4097 | tee Scotobleps_recoded.9.out
+2022-02-24 13:54:33.842746: K9 replicate 3: Finished. Elapsed time: 0:00:04.787518
+
+2022-02-24 13:54:33.843068: K9 replicate 4: admixture Scotobleps_recoded.ped 9 -j8 --cv=10 -s 3052 | tee Scotobleps_recoded.9.out
+2022-02-24 13:54:37.652954: K9 replicate 4: Finished. Elapsed time: 0:00:03.809892
+
+2022-02-24 13:54:37.653198: K9 replicate 5: admixture Scotobleps_recoded.ped 9 -j8 --cv=10 -s 366 | tee Scotobleps_recoded.9.out
+2022-02-24 13:54:42.507979: K9 replicate 5: Finished. Elapsed time: 0:00:04.854753
+
+2022-02-24 13:54:42.508226: K9 replicate 6: admixture Scotobleps_recoded.ped 9 -j8 --cv=10 -s 3905 | tee Scotobleps_recoded.9.out
+2022-02-24 13:54:46.645696: K9 replicate 6: Finished. Elapsed time: 0:00:04.137475
+
+2022-02-24 13:54:46.645974: K9 replicate 7: admixture Scotobleps_recoded.ped 9 -j8 --cv=10 -s 4192 | tee Scotobleps_recoded.9.out
+2022-02-24 13:54:50.651300: K9 replicate 7: Finished. Elapsed time: 0:00:04.005325
+
+2022-02-24 13:54:50.651548: K9 replicate 8: admixture Scotobleps_recoded.ped 9 -j8 --cv=10 -s 364 | tee Scotobleps_recoded.9.out
+2022-02-24 13:54:54.546081: K9 replicate 8: Finished. Elapsed time: 0:00:03.894537
+
+2022-02-24 13:54:54.546343: K9 replicate 9: admixture Scotobleps_recoded.ped 9 -j8 --cv=10 -s 3076 | tee Scotobleps_recoded.9.out
+2022-02-24 13:54:58.652583: K9 replicate 9: Finished. Elapsed time: 0:00:04.106202
+
+2022-02-24 13:54:58.652828: K9 replicate 10: admixture Scotobleps_recoded.ped 9 -j8 --cv=10 -s 1068 | tee Scotobleps_recoded.9.out
+2022-02-24 13:55:02.677569: K9 replicate 10: Finished. Elapsed time: 0:00:04.024717
+
+2022-02-24 13:55:02.677815: K10 replicate 1: admixture Scotobleps_recoded.ped 10 -j8 --cv=10 -s 1214 | tee Scotobleps_recoded.10.out
+2022-02-24 13:55:07.741097: K10 replicate 1: Finished. Elapsed time: 0:00:05.063245
+
+2022-02-24 13:55:07.741346: K10 replicate 2: admixture Scotobleps_recoded.ped 10 -j8 --cv=10 -s 2200 | tee Scotobleps_recoded.10.out
+2022-02-24 13:55:12.266154: K10 replicate 2: Finished. Elapsed time: 0:00:04.524779
+
+2022-02-24 13:55:12.266420: K10 replicate 3: admixture Scotobleps_recoded.ped 10 -j8 --cv=10 -s 4824 | tee Scotobleps_recoded.10.out
+2022-02-24 13:55:17.163481: K10 replicate 3: Finished. Elapsed time: 0:00:04.897009
+
+2022-02-24 13:55:17.163734: K10 replicate 4: admixture Scotobleps_recoded.ped 10 -j8 --cv=10 -s 1795 | tee Scotobleps_recoded.10.out
+2022-02-24 13:55:21.672494: K10 replicate 4: Finished. Elapsed time: 0:00:04.508708
+
+2022-02-24 13:55:21.672740: K10 replicate 5: admixture Scotobleps_recoded.ped 10 -j8 --cv=10 -s 617 | tee Scotobleps_recoded.10.out
+2022-02-24 13:55:27.630001: K10 replicate 5: Finished. Elapsed time: 0:00:05.957223
+
+2022-02-24 13:55:27.630244: K10 replicate 6: admixture Scotobleps_recoded.ped 10 -j8 --cv=10 -s 2837 | tee Scotobleps_recoded.10.out
+2022-02-24 13:55:33.295616: K10 replicate 6: Finished. Elapsed time: 0:00:05.665330
+
+2022-02-24 13:55:33.295867: K10 replicate 7: admixture Scotobleps_recoded.ped 10 -j8 --cv=10 -s 3054 | tee Scotobleps_recoded.10.out
+2022-02-24 13:55:37.882285: K10 replicate 7: Finished. Elapsed time: 0:00:04.586367
+
+2022-02-24 13:55:37.882538: K10 replicate 8: admixture Scotobleps_recoded.ped 10 -j8 --cv=10 -s 2132 | tee Scotobleps_recoded.10.out
+2022-02-24 13:55:43.473270: K10 replicate 8: Finished. Elapsed time: 0:00:05.590662
+
+2022-02-24 13:55:43.473561: K10 replicate 9: admixture Scotobleps_recoded.ped 10 -j8 --cv=10 -s 3748 | tee Scotobleps_recoded.10.out
+2022-02-24 13:55:47.935984: K10 replicate 9: Finished. Elapsed time: 0:00:04.462394
+
+2022-02-24 13:55:47.936233: K10 replicate 10: admixture Scotobleps_recoded.ped 10 -j8 --cv=10 -s 2685 | tee Scotobleps_recoded.10.out
+2022-02-24 13:55:52.713793: K10 replicate 10: Finished. Elapsed time: 0:00:04.777533
+
+
+
+================================================================================
+Running admixture for: Trachylepis_recoded.ped
+================================================================================
+
+2022-02-24 13:55:52.736187: K1 replicate 1: admixture Trachylepis_recoded.ped 1 -j8 --cv=10 -s 3485 | tee Trachylepis_recoded.1.out
+2022-02-24 13:55:52.858530: K1 replicate 1: Finished. Elapsed time: 0:00:00.122344
+
+2022-02-24 13:55:52.858834: K1 replicate 2: admixture Trachylepis_recoded.ped 1 -j8 --cv=10 -s 3904 | tee Trachylepis_recoded.1.out
+2022-02-24 13:55:52.976818: K1 replicate 2: Finished. Elapsed time: 0:00:00.118013
+
+2022-02-24 13:55:52.977070: K1 replicate 3: admixture Trachylepis_recoded.ped 1 -j8 --cv=10 -s 4785 | tee Trachylepis_recoded.1.out
+2022-02-24 13:55:53.097367: K1 replicate 3: Finished. Elapsed time: 0:00:00.120250
+
+2022-02-24 13:55:53.097614: K1 replicate 4: admixture Trachylepis_recoded.ped 1 -j8 --cv=10 -s 1397 | tee Trachylepis_recoded.1.out
+2022-02-24 13:55:53.215812: K1 replicate 4: Finished. Elapsed time: 0:00:00.118161
+
+2022-02-24 13:55:53.216103: K1 replicate 5: admixture Trachylepis_recoded.ped 1 -j8 --cv=10 -s 1254 | tee Trachylepis_recoded.1.out
+2022-02-24 13:55:53.341055: K1 replicate 5: Finished. Elapsed time: 0:00:00.124932
+
+2022-02-24 13:55:53.341311: K1 replicate 6: admixture Trachylepis_recoded.ped 1 -j8 --cv=10 -s 374 | tee Trachylepis_recoded.1.out
+2022-02-24 13:55:53.472070: K1 replicate 6: Finished. Elapsed time: 0:00:00.130732
+
+2022-02-24 13:55:53.472315: K1 replicate 7: admixture Trachylepis_recoded.ped 1 -j8 --cv=10 -s 557 | tee Trachylepis_recoded.1.out
+2022-02-24 13:55:53.591082: K1 replicate 7: Finished. Elapsed time: 0:00:00.118748
+
+2022-02-24 13:55:53.591316: K1 replicate 8: admixture Trachylepis_recoded.ped 1 -j8 --cv=10 -s 2586 | tee Trachylepis_recoded.1.out
+2022-02-24 13:55:53.710111: K1 replicate 8: Finished. Elapsed time: 0:00:00.118802
+
+2022-02-24 13:55:53.710349: K1 replicate 9: admixture Trachylepis_recoded.ped 1 -j8 --cv=10 -s 589 | tee Trachylepis_recoded.1.out
+2022-02-24 13:55:53.830478: K1 replicate 9: Finished. Elapsed time: 0:00:00.120093
+
+2022-02-24 13:55:53.830719: K1 replicate 10: admixture Trachylepis_recoded.ped 1 -j8 --cv=10 -s 3866 | tee Trachylepis_recoded.1.out
+2022-02-24 13:55:53.957116: K1 replicate 10: Finished. Elapsed time: 0:00:00.126341
+
+2022-02-24 13:55:53.957362: K2 replicate 1: admixture Trachylepis_recoded.ped 2 -j8 --cv=10 -s 3645 | tee Trachylepis_recoded.2.out
+2022-02-24 13:55:54.147910: K2 replicate 1: Finished. Elapsed time: 0:00:00.190528
+
+2022-02-24 13:55:54.148149: K2 replicate 2: admixture Trachylepis_recoded.ped 2 -j8 --cv=10 -s 2004 | tee Trachylepis_recoded.2.out
+2022-02-24 13:55:54.336954: K2 replicate 2: Finished. Elapsed time: 0:00:00.188781
+
+2022-02-24 13:55:54.337192: K2 replicate 3: admixture Trachylepis_recoded.ped 2 -j8 --cv=10 -s 3254 | tee Trachylepis_recoded.2.out
+2022-02-24 13:55:54.523837: K2 replicate 3: Finished. Elapsed time: 0:00:00.186626
+
+2022-02-24 13:55:54.524072: K2 replicate 4: admixture Trachylepis_recoded.ped 2 -j8 --cv=10 -s 154 | tee Trachylepis_recoded.2.out
+2022-02-24 13:55:54.702851: K2 replicate 4: Finished. Elapsed time: 0:00:00.178750
+
+2022-02-24 13:55:54.703085: K2 replicate 5: admixture Trachylepis_recoded.ped 2 -j8 --cv=10 -s 4906 | tee Trachylepis_recoded.2.out
+2022-02-24 13:55:54.891824: K2 replicate 5: Finished. Elapsed time: 0:00:00.188704
+
+2022-02-24 13:55:54.892123: K2 replicate 6: admixture Trachylepis_recoded.ped 2 -j8 --cv=10 -s 0 | tee Trachylepis_recoded.2.out
+2022-02-24 13:55:55.095307: K2 replicate 6: Finished. Elapsed time: 0:00:00.203116
+
+2022-02-24 13:55:55.095598: K2 replicate 7: admixture Trachylepis_recoded.ped 2 -j8 --cv=10 -s 3678 | tee Trachylepis_recoded.2.out
+2022-02-24 13:55:55.287985: K2 replicate 7: Finished. Elapsed time: 0:00:00.192419
+
+2022-02-24 13:55:55.288231: K2 replicate 8: admixture Trachylepis_recoded.ped 2 -j8 --cv=10 -s 2423 | tee Trachylepis_recoded.2.out
+2022-02-24 13:55:55.468948: K2 replicate 8: Finished. Elapsed time: 0:00:00.180679
+
+2022-02-24 13:55:55.469207: K2 replicate 9: admixture Trachylepis_recoded.ped 2 -j8 --cv=10 -s 2081 | tee Trachylepis_recoded.2.out
+2022-02-24 13:55:55.646410: K2 replicate 9: Finished. Elapsed time: 0:00:00.177213
+
+2022-02-24 13:55:55.646647: K2 replicate 10: admixture Trachylepis_recoded.ped 2 -j8 --cv=10 -s 3302 | tee Trachylepis_recoded.2.out
+2022-02-24 13:55:55.851404: K2 replicate 10: Finished. Elapsed time: 0:00:00.204763
+
+2022-02-24 13:55:55.851724: K3 replicate 1: admixture Trachylepis_recoded.ped 3 -j8 --cv=10 -s 4482 | tee Trachylepis_recoded.3.out
+2022-02-24 13:55:56.168294: K3 replicate 1: Finished. Elapsed time: 0:00:00.316579
+
+2022-02-24 13:55:56.168535: K3 replicate 2: admixture Trachylepis_recoded.ped 3 -j8 --cv=10 -s 3101 | tee Trachylepis_recoded.3.out
+2022-02-24 13:55:56.496435: K3 replicate 2: Finished. Elapsed time: 0:00:00.327850
+
+2022-02-24 13:55:56.496688: K3 replicate 3: admixture Trachylepis_recoded.ped 3 -j8 --cv=10 -s 816 | tee Trachylepis_recoded.3.out
+2022-02-24 14:00:06.227331: K3 replicate 3: Finished. Elapsed time: 0:04:09.730607
+
+2022-02-24 14:00:06.227573: K3 replicate 4: admixture Trachylepis_recoded.ped 3 -j8 --cv=10 -s 306 | tee Trachylepis_recoded.3.out
+2022-02-24 14:00:06.489151: K3 replicate 4: Finished. Elapsed time: 0:00:00.261554
+
+2022-02-24 14:00:06.489399: K3 replicate 5: admixture Trachylepis_recoded.ped 3 -j8 --cv=10 -s 883 | tee Trachylepis_recoded.3.out
+2022-02-24 14:04:34.534606: K3 replicate 5: Finished. Elapsed time: 0:04:28.045213
+
+2022-02-24 14:04:34.534850: K3 replicate 6: admixture Trachylepis_recoded.ped 3 -j8 --cv=10 -s 3895 | tee Trachylepis_recoded.3.out
+2022-02-24 14:04:34.854673: K3 replicate 6: Finished. Elapsed time: 0:00:00.319802
+
+2022-02-24 14:04:34.854911: K3 replicate 7: admixture Trachylepis_recoded.ped 3 -j8 --cv=10 -s 425 | tee Trachylepis_recoded.3.out
+2022-02-24 14:04:35.165908: K3 replicate 7: Finished. Elapsed time: 0:00:00.311005
+
+2022-02-24 14:04:35.166164: K3 replicate 8: admixture Trachylepis_recoded.ped 3 -j8 --cv=10 -s 3662 | tee Trachylepis_recoded.3.out
+2022-02-24 14:04:35.501135: K3 replicate 8: Finished. Elapsed time: 0:00:00.334981
+
+2022-02-24 14:04:35.501379: K3 replicate 9: admixture Trachylepis_recoded.ped 3 -j8 --cv=10 -s 1185 | tee Trachylepis_recoded.3.out
+2022-02-24 14:04:35.802469: K3 replicate 9: Finished. Elapsed time: 0:00:00.301044
+
+2022-02-24 14:04:35.802722: K3 replicate 10: admixture Trachylepis_recoded.ped 3 -j8 --cv=10 -s 908 | tee Trachylepis_recoded.3.out
+2022-02-24 14:04:36.248442: K3 replicate 10: Finished. Elapsed time: 0:00:00.445731
+
+2022-02-24 14:04:36.248693: K4 replicate 1: admixture Trachylepis_recoded.ped 4 -j8 --cv=10 -s 3149 | tee Trachylepis_recoded.4.out
+2022-02-24 14:04:36.584517: K4 replicate 1: Finished. Elapsed time: 0:00:00.335806
+
+2022-02-24 14:04:36.584774: K4 replicate 2: admixture Trachylepis_recoded.ped 4 -j8 --cv=10 -s 4778 | tee Trachylepis_recoded.4.out
+2022-02-24 14:04:37.039949: K4 replicate 2: Finished. Elapsed time: 0:00:00.455155
+
+2022-02-24 14:04:37.040205: K4 replicate 3: admixture Trachylepis_recoded.ped 4 -j8 --cv=10 -s 2120 | tee Trachylepis_recoded.4.out
+2022-02-24 14:04:37.363743: K4 replicate 3: Finished. Elapsed time: 0:00:00.323547
+
+2022-02-24 14:04:37.363987: K4 replicate 4: admixture Trachylepis_recoded.ped 4 -j8 --cv=10 -s 126 | tee Trachylepis_recoded.4.out
+2022-02-24 14:04:37.637854: K4 replicate 4: Finished. Elapsed time: 0:00:00.273843
+
+2022-02-24 14:04:37.638094: K4 replicate 5: admixture Trachylepis_recoded.ped 4 -j8 --cv=10 -s 3596 | tee Trachylepis_recoded.4.out
+2022-02-24 14:04:37.928487: K4 replicate 5: Finished. Elapsed time: 0:00:00.290353
+
+2022-02-24 14:04:37.928771: K4 replicate 6: admixture Trachylepis_recoded.ped 4 -j8 --cv=10 -s 4678 | tee Trachylepis_recoded.4.out
+2022-02-24 14:04:38.359627: K4 replicate 6: Finished. Elapsed time: 0:00:00.430830
+
+2022-02-24 14:04:38.359878: K4 replicate 7: admixture Trachylepis_recoded.ped 4 -j8 --cv=10 -s 164 | tee Trachylepis_recoded.4.out
+2022-02-24 14:04:38.701317: K4 replicate 7: Finished. Elapsed time: 0:00:00.341402
+
+2022-02-24 14:04:38.701567: K4 replicate 8: admixture Trachylepis_recoded.ped 4 -j8 --cv=10 -s 3337 | tee Trachylepis_recoded.4.out
+2022-02-24 14:04:39.072642: K4 replicate 8: Finished. Elapsed time: 0:00:00.371049
+
+2022-02-24 14:04:39.072890: K4 replicate 9: admixture Trachylepis_recoded.ped 4 -j8 --cv=10 -s 4686 | tee Trachylepis_recoded.4.out
+2022-02-24 14:04:39.505968: K4 replicate 9: Finished. Elapsed time: 0:00:00.433052
+
+2022-02-24 14:04:39.506210: K4 replicate 10: admixture Trachylepis_recoded.ped 4 -j8 --cv=10 -s 4140 | tee Trachylepis_recoded.4.out
+2022-02-24 14:04:39.775958: K4 replicate 10: Finished. Elapsed time: 0:00:00.269637
+
+2022-02-24 14:04:39.776339: K5 replicate 1: admixture Trachylepis_recoded.ped 5 -j8 --cv=10 -s 1535 | tee Trachylepis_recoded.5.out
+2022-02-24 14:04:40.061557: K5 replicate 1: Finished. Elapsed time: 0:00:00.285254
+
+2022-02-24 14:04:40.061808: K5 replicate 2: admixture Trachylepis_recoded.ped 5 -j8 --cv=10 -s 1840 | tee Trachylepis_recoded.5.out
+2022-02-24 14:04:40.432537: K5 replicate 2: Finished. Elapsed time: 0:00:00.370710
+
+2022-02-24 14:04:40.432781: K5 replicate 3: admixture Trachylepis_recoded.ped 5 -j8 --cv=10 -s 2251 | tee Trachylepis_recoded.5.out
+2022-02-24 14:04:40.751300: K5 replicate 3: Finished. Elapsed time: 0:00:00.318502
+
+2022-02-24 14:04:40.751546: K5 replicate 4: admixture Trachylepis_recoded.ped 5 -j8 --cv=10 -s 4695 | tee Trachylepis_recoded.5.out
+2022-02-24 14:04:41.048703: K5 replicate 4: Finished. Elapsed time: 0:00:00.297144
+
+2022-02-24 14:04:41.048945: K5 replicate 5: admixture Trachylepis_recoded.ped 5 -j8 --cv=10 -s 3825 | tee Trachylepis_recoded.5.out
+2022-02-24 14:04:41.380279: K5 replicate 5: Finished. Elapsed time: 0:00:00.331300
+
+2022-02-24 14:04:41.380532: K5 replicate 6: admixture Trachylepis_recoded.ped 5 -j8 --cv=10 -s 1111 | tee Trachylepis_recoded.5.out
+2022-02-24 14:04:41.849129: K5 replicate 6: Finished. Elapsed time: 0:00:00.468580
+
+2022-02-24 14:04:41.849370: K5 replicate 7: admixture Trachylepis_recoded.ped 5 -j8 --cv=10 -s 709 | tee Trachylepis_recoded.5.out
+2022-02-24 14:04:42.261549: K5 replicate 7: Finished. Elapsed time: 0:00:00.412162
+
+2022-02-24 14:04:42.261802: K5 replicate 8: admixture Trachylepis_recoded.ped 5 -j8 --cv=10 -s 891 | tee Trachylepis_recoded.5.out
+2022-02-24 14:04:42.647580: K5 replicate 8: Finished. Elapsed time: 0:00:00.385714
+
+2022-02-24 14:04:42.647857: K5 replicate 9: admixture Trachylepis_recoded.ped 5 -j8 --cv=10 -s 1412 | tee Trachylepis_recoded.5.out
+2022-02-24 14:04:42.981884: K5 replicate 9: Finished. Elapsed time: 0:00:00.334002
+
+2022-02-24 14:04:42.982136: K5 replicate 10: admixture Trachylepis_recoded.ped 5 -j8 --cv=10 -s 1893 | tee Trachylepis_recoded.5.out
+2022-02-24 14:04:43.536842: K5 replicate 10: Finished. Elapsed time: 0:00:00.554677
+
+2022-02-24 14:04:43.537098: K6 replicate 1: admixture Trachylepis_recoded.ped 6 -j8 --cv=10 -s 4173 | tee Trachylepis_recoded.6.out
+2022-02-24 14:04:43.884636: K6 replicate 1: Finished. Elapsed time: 0:00:00.347482
+
+2022-02-24 14:04:43.884902: K6 replicate 2: admixture Trachylepis_recoded.ped 6 -j8 --cv=10 -s 861 | tee Trachylepis_recoded.6.out
+2022-02-24 14:04:44.284130: K6 replicate 2: Finished. Elapsed time: 0:00:00.399235
+
+2022-02-24 14:04:44.284435: K6 replicate 3: admixture Trachylepis_recoded.ped 6 -j8 --cv=10 -s 4139 | tee Trachylepis_recoded.6.out
+2022-02-24 14:04:44.638210: K6 replicate 3: Finished. Elapsed time: 0:00:00.353753
+
+2022-02-24 14:04:44.638471: K6 replicate 4: admixture Trachylepis_recoded.ped 6 -j8 --cv=10 -s 4816 | tee Trachylepis_recoded.6.out
+2022-02-24 14:04:44.990452: K6 replicate 4: Finished. Elapsed time: 0:00:00.351955
+
+2022-02-24 14:04:44.990713: K6 replicate 5: admixture Trachylepis_recoded.ped 6 -j8 --cv=10 -s 1786 | tee Trachylepis_recoded.6.out
+2022-02-24 14:04:45.327661: K6 replicate 5: Finished. Elapsed time: 0:00:00.336908
+
+2022-02-24 14:04:45.327917: K6 replicate 6: admixture Trachylepis_recoded.ped 6 -j8 --cv=10 -s 204 | tee Trachylepis_recoded.6.out
+2022-02-24 14:04:45.671094: K6 replicate 6: Finished. Elapsed time: 0:00:00.343181
+
+2022-02-24 14:04:45.671349: K6 replicate 7: admixture Trachylepis_recoded.ped 6 -j8 --cv=10 -s 4494 | tee Trachylepis_recoded.6.out
+2022-02-24 14:04:46.069596: K6 replicate 7: Finished. Elapsed time: 0:00:00.398217
+
+2022-02-24 14:04:46.069842: K6 replicate 8: admixture Trachylepis_recoded.ped 6 -j8 --cv=10 -s 2868 | tee Trachylepis_recoded.6.out
+2022-02-24 14:04:46.418065: K6 replicate 8: Finished. Elapsed time: 0:00:00.348200
+
+2022-02-24 14:04:46.418323: K6 replicate 9: admixture Trachylepis_recoded.ped 6 -j8 --cv=10 -s 357 | tee Trachylepis_recoded.6.out
+2022-02-24 14:04:46.764570: K6 replicate 9: Finished. Elapsed time: 0:00:00.346229
+
+2022-02-24 14:04:46.764829: K6 replicate 10: admixture Trachylepis_recoded.ped 6 -j8 --cv=10 -s 1388 | tee Trachylepis_recoded.6.out
+2022-02-24 14:04:47.169196: K6 replicate 10: Finished. Elapsed time: 0:00:00.404345
+
+2022-02-24 14:04:47.169450: K7 replicate 1: admixture Trachylepis_recoded.ped 7 -j8 --cv=10 -s 1149 | tee Trachylepis_recoded.7.out
+2022-02-24 14:04:47.533441: K7 replicate 1: Finished. Elapsed time: 0:00:00.363973
+
+2022-02-24 14:04:47.533690: K7 replicate 2: admixture Trachylepis_recoded.ped 7 -j8 --cv=10 -s 3983 | tee Trachylepis_recoded.7.out
+2022-02-24 14:04:47.905036: K7 replicate 2: Finished. Elapsed time: 0:00:00.371317
+
+2022-02-24 14:04:47.905287: K7 replicate 3: admixture Trachylepis_recoded.ped 7 -j8 --cv=10 -s 3813 | tee Trachylepis_recoded.7.out
+2022-02-24 14:04:48.287185: K7 replicate 3: Finished. Elapsed time: 0:00:00.381853
+
+2022-02-24 14:04:48.287434: K7 replicate 4: admixture Trachylepis_recoded.ped 7 -j8 --cv=10 -s 2290 | tee Trachylepis_recoded.7.out
+2022-02-24 14:04:48.778937: K7 replicate 4: Finished. Elapsed time: 0:00:00.491474
+
+2022-02-24 14:04:48.779199: K7 replicate 5: admixture Trachylepis_recoded.ped 7 -j8 --cv=10 -s 4927 | tee Trachylepis_recoded.7.out
+2022-02-24 14:04:49.234989: K7 replicate 5: Finished. Elapsed time: 0:00:00.455800
+
+2022-02-24 14:04:49.235237: K7 replicate 6: admixture Trachylepis_recoded.ped 7 -j8 --cv=10 -s 3072 | tee Trachylepis_recoded.7.out
+2022-02-24 14:04:49.661840: K7 replicate 6: Finished. Elapsed time: 0:00:00.426550
+
+2022-02-24 14:04:49.662222: K7 replicate 7: admixture Trachylepis_recoded.ped 7 -j8 --cv=10 -s 1085 | tee Trachylepis_recoded.7.out
+2022-02-24 14:04:50.037468: K7 replicate 7: Finished. Elapsed time: 0:00:00.375301
+
+2022-02-24 14:04:50.037724: K7 replicate 8: admixture Trachylepis_recoded.ped 7 -j8 --cv=10 -s 2133 | tee Trachylepis_recoded.7.out
+2022-02-24 14:04:50.437948: K7 replicate 8: Finished. Elapsed time: 0:00:00.400197
+
+2022-02-24 14:04:50.438200: K7 replicate 9: admixture Trachylepis_recoded.ped 7 -j8 --cv=10 -s 2039 | tee Trachylepis_recoded.7.out
+2022-02-24 14:04:50.833114: K7 replicate 9: Finished. Elapsed time: 0:00:00.394878
+
+2022-02-24 14:04:50.833368: K7 replicate 10: admixture Trachylepis_recoded.ped 7 -j8 --cv=10 -s 1480 | tee Trachylepis_recoded.7.out
+2022-02-24 14:04:51.322689: K7 replicate 10: Finished. Elapsed time: 0:00:00.489304
+
+2022-02-24 14:04:51.322949: K8 replicate 1: admixture Trachylepis_recoded.ped 8 -j8 --cv=10 -s 1646 | tee Trachylepis_recoded.8.out
+2022-02-24 14:04:51.891071: K8 replicate 1: Finished. Elapsed time: 0:00:00.568091
+
+2022-02-24 14:04:51.891315: K8 replicate 2: admixture Trachylepis_recoded.ped 8 -j8 --cv=10 -s 1004 | tee Trachylepis_recoded.8.out
+2022-02-24 14:04:52.379358: K8 replicate 2: Finished. Elapsed time: 0:00:00.487944
+
+2022-02-24 14:04:52.379641: K8 replicate 3: admixture Trachylepis_recoded.ped 8 -j8 --cv=10 -s 2415 | tee Trachylepis_recoded.8.out
+2022-02-24 14:04:52.809983: K8 replicate 3: Finished. Elapsed time: 0:00:00.430352
+
+2022-02-24 14:04:52.810232: K8 replicate 4: admixture Trachylepis_recoded.ped 8 -j8 --cv=10 -s 1880 | tee Trachylepis_recoded.8.out
+2022-02-24 14:04:53.273271: K8 replicate 4: Finished. Elapsed time: 0:00:00.463018
+
+2022-02-24 14:04:53.273539: K8 replicate 5: admixture Trachylepis_recoded.ped 8 -j8 --cv=10 -s 2348 | tee Trachylepis_recoded.8.out
+2022-02-24 14:04:53.716929: K8 replicate 5: Finished. Elapsed time: 0:00:00.443399
+
+2022-02-24 14:04:53.717185: K8 replicate 6: admixture Trachylepis_recoded.ped 8 -j8 --cv=10 -s 293 | tee Trachylepis_recoded.8.out
+2022-02-24 14:04:54.199641: K8 replicate 6: Finished. Elapsed time: 0:00:00.482436
+
+2022-02-24 14:04:54.199902: K8 replicate 7: admixture Trachylepis_recoded.ped 8 -j8 --cv=10 -s 3360 | tee Trachylepis_recoded.8.out
+2022-02-24 14:04:54.638167: K8 replicate 7: Finished. Elapsed time: 0:00:00.438247
+
+2022-02-24 14:04:54.638429: K8 replicate 8: admixture Trachylepis_recoded.ped 8 -j8 --cv=10 -s 1351 | tee Trachylepis_recoded.8.out
+2022-02-24 14:04:55.208283: K8 replicate 8: Finished. Elapsed time: 0:00:00.569815
+
+2022-02-24 14:04:55.208548: K8 replicate 9: admixture Trachylepis_recoded.ped 8 -j8 --cv=10 -s 4176 | tee Trachylepis_recoded.8.out
+2022-02-24 14:04:56.038287: K8 replicate 9: Finished. Elapsed time: 0:00:00.829707
+
+2022-02-24 14:04:56.038549: K8 replicate 10: admixture Trachylepis_recoded.ped 8 -j8 --cv=10 -s 1045 | tee Trachylepis_recoded.8.out
+2022-02-24 14:04:56.567663: K8 replicate 10: Finished. Elapsed time: 0:00:00.529071
+
+2022-02-24 14:04:56.567924: K9 replicate 1: admixture Trachylepis_recoded.ped 9 -j8 --cv=10 -s 4713 | tee Trachylepis_recoded.9.out
+2022-02-24 14:04:57.052239: K9 replicate 1: Finished. Elapsed time: 0:00:00.484277
+
+2022-02-24 14:04:57.052484: K9 replicate 2: admixture Trachylepis_recoded.ped 9 -j8 --cv=10 -s 1274 | tee Trachylepis_recoded.9.out
+2022-02-24 14:04:57.679886: K9 replicate 2: Finished. Elapsed time: 0:00:00.627368
+
+2022-02-24 14:04:57.680155: K9 replicate 3: admixture Trachylepis_recoded.ped 9 -j8 --cv=10 -s 380 | tee Trachylepis_recoded.9.out
+2022-02-24 14:04:58.173241: K9 replicate 3: Finished. Elapsed time: 0:00:00.493096
+
+2022-02-24 14:04:58.173497: K9 replicate 4: admixture Trachylepis_recoded.ped 9 -j8 --cv=10 -s 2729 | tee Trachylepis_recoded.9.out
+2022-02-24 14:04:58.711751: K9 replicate 4: Finished. Elapsed time: 0:00:00.538224
+
+2022-02-24 14:04:58.712003: K9 replicate 5: admixture Trachylepis_recoded.ped 9 -j8 --cv=10 -s 4086 | tee Trachylepis_recoded.9.out
+2022-02-24 14:04:59.279965: K9 replicate 5: Finished. Elapsed time: 0:00:00.567936
+
+2022-02-24 14:04:59.280218: K9 replicate 6: admixture Trachylepis_recoded.ped 9 -j8 --cv=10 -s 4823 | tee Trachylepis_recoded.9.out
+2022-02-24 14:04:59.805535: K9 replicate 6: Finished. Elapsed time: 0:00:00.525331
+
+2022-02-24 14:04:59.805778: K9 replicate 7: admixture Trachylepis_recoded.ped 9 -j8 --cv=10 -s 1266 | tee Trachylepis_recoded.9.out
+2022-02-24 14:05:00.366199: K9 replicate 7: Finished. Elapsed time: 0:00:00.560403
+
+2022-02-24 14:05:00.366458: K9 replicate 8: admixture Trachylepis_recoded.ped 9 -j8 --cv=10 -s 2979 | tee Trachylepis_recoded.9.out
+2022-02-24 14:05:00.925833: K9 replicate 8: Finished. Elapsed time: 0:00:00.559356
+
+2022-02-24 14:05:00.926095: K9 replicate 9: admixture Trachylepis_recoded.ped 9 -j8 --cv=10 -s 4135 | tee Trachylepis_recoded.9.out
+2022-02-24 14:05:01.583429: K9 replicate 9: Finished. Elapsed time: 0:00:00.657316
+
+2022-02-24 14:05:01.583696: K9 replicate 10: admixture Trachylepis_recoded.ped 9 -j8 --cv=10 -s 136 | tee Trachylepis_recoded.9.out
+2022-02-24 14:05:02.132458: K9 replicate 10: Finished. Elapsed time: 0:00:00.548779
+
+2022-02-24 14:05:02.132729: K10 replicate 1: admixture Trachylepis_recoded.ped 10 -j8 --cv=10 -s 1730 | tee Trachylepis_recoded.10.out
+2022-02-24 14:05:02.716863: K10 replicate 1: Finished. Elapsed time: 0:00:00.584144
+
+2022-02-24 14:05:02.717131: K10 replicate 2: admixture Trachylepis_recoded.ped 10 -j8 --cv=10 -s 3011 | tee Trachylepis_recoded.10.out
+2022-02-24 14:05:03.236567: K10 replicate 2: Finished. Elapsed time: 0:00:00.519421
+
+2022-02-24 14:05:03.236833: K10 replicate 3: admixture Trachylepis_recoded.ped 10 -j8 --cv=10 -s 54 | tee Trachylepis_recoded.10.out
+2022-02-24 14:05:03.835389: K10 replicate 3: Finished. Elapsed time: 0:00:00.598516
+
+2022-02-24 14:05:03.835666: K10 replicate 4: admixture Trachylepis_recoded.ped 10 -j8 --cv=10 -s 2474 | tee Trachylepis_recoded.10.out
+2022-02-24 14:05:04.473108: K10 replicate 4: Finished. Elapsed time: 0:00:00.637420
+
+2022-02-24 14:05:04.473366: K10 replicate 5: admixture Trachylepis_recoded.ped 10 -j8 --cv=10 -s 1069 | tee Trachylepis_recoded.10.out
+2022-02-24 14:05:05.027885: K10 replicate 5: Finished. Elapsed time: 0:00:00.554490
+
+2022-02-24 14:05:05.028142: K10 replicate 6: admixture Trachylepis_recoded.ped 10 -j8 --cv=10 -s 1890 | tee Trachylepis_recoded.10.out
+2022-02-24 14:05:05.610191: K10 replicate 6: Finished. Elapsed time: 0:00:00.582015
+
+2022-02-24 14:05:05.610435: K10 replicate 7: admixture Trachylepis_recoded.ped 10 -j8 --cv=10 -s 4843 | tee Trachylepis_recoded.10.out
+2022-02-24 14:05:06.297703: K10 replicate 7: Finished. Elapsed time: 0:00:00.687250
+
+2022-02-24 14:05:06.297948: K10 replicate 8: admixture Trachylepis_recoded.ped 10 -j8 --cv=10 -s 846 | tee Trachylepis_recoded.10.out
+2022-02-24 14:05:06.849922: K10 replicate 8: Finished. Elapsed time: 0:00:00.551951
+
+2022-02-24 14:05:06.850268: K10 replicate 9: admixture Trachylepis_recoded.ped 10 -j8 --cv=10 -s 3689 | tee Trachylepis_recoded.10.out
+2022-02-24 14:05:07.404738: K10 replicate 9: Finished. Elapsed time: 0:00:00.554454
+
+2022-02-24 14:05:07.404993: K10 replicate 10: admixture Trachylepis_recoded.ped 10 -j8 --cv=10 -s 2193 | tee Trachylepis_recoded.10.out
+2022-02-24 14:05:07.969142: K10 replicate 10: Finished. Elapsed time: 0:00:00.564126
+
+
+
+================================================================================
+
+Total elapsed time: 0:20:39.051329 (H:M:S)
+
+================================================================================
+
