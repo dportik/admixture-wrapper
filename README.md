@@ -176,6 +176,3 @@ Please test the script using these files before running on your own dataset to c
 
 GNU Lesser General Public License v3.0
 
-### Contact
-
-The admixture-wrapper scripts were written by Daniel Portik (daniel.portik@gmail.com)
